@@ -5,64 +5,69 @@
 		Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 	--font-mono: 'Fira Mono', monospace;
 	--pure-white: #ffffff;
-	--primary-color: #b9c6d2;
-	--secondary-color: #d0dde9;
-	--tertiary-color: #edf0f8;
-	--accent-color: #ff3e00;
+	--primary-color: rgb(199, 244, 100);
+	--secondary-color: rgb(78, 205, 196);
+	--tertiary-color: rgb(66, 76, 87);
+	--accent-color: rgb(196, 77, 88);
+	--accent2-color: rgb(255, 107, 107);
 	--heading-color: rgba(0, 0, 0, 0.7);
-	--text-color: #444444;
-	--background-without-opacity: rgba(255, 255, 255, 0.7);
+	--text-color: rgba(22, 27, 32, 0.9);
+	--background: rgba(85, 98, 112, 1);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
 }
 
 body {
+	display: flex;
 	min-height: 100vh;
+	flex-direction: row;
 	margin: 0;
-	background-color: var(--primary-color);
-	background: linear-gradient(
-		180deg,
-		var(--primary-color) 0%,
-		var(--secondary-color) 10.45%,
-		var(--tertiary-color) 41.35%
-	);
+	background-color: var(--background);
 }
 
-body::before {
-	content: '';
-	width: 80vw;
-	height: 100vh;
-	position: absolute;
-	top: 0;
-	left: 10vw;
-	z-index: -1;
-	background: radial-gradient(
-		50% 50% at 50% 50%,
-		var(--pure-white) 0%,
-		rgba(255, 255, 255, 0) 100%
-	);
-	opacity: 0.05;
+.col-1 {
+	flex: 1;
 }
 
-#svelte {
-	min-height: 100vh;
+.col-2 {
 	display: flex;
 	flex-direction: column;
+	flex: 5;
+}
+
+main{
+	padding: 2rem;
+}
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.content>article {
+	flex: 4;
+	min-height: 60vh;
 }
 
 h1,
-h2,
-p {
-	font-weight: 400;
-	color: var(--heading-color);
+h2
+{
+	font-weight: 900;
+	color: var(--secondary-color);
+	font-family: 'Questrial', Sans-Serif;
+	line-height: 41px;
+	text-transform: uppercase;
 }
 
 p {
-	line-height: 1.5;
+	font-weight: 800;
+    color: var(--text-color);
+    line-height: 30px;
+    font-family: 'Alegreya', Serif;
+    font-size: 1.1rem;
 }
 
 a {
-	color: var(--accent-color);
+	color: var(--accent2-color);
 	text-decoration: none;
 }
 
@@ -72,7 +77,6 @@ a:hover {
 
 h1 {
 	font-size: 2rem;
-	text-align: center;
 }
 
 h2 {
@@ -90,6 +94,43 @@ pre {
 	color: var(--text-color);
 }
 
+
+button {
+	margin: 30px 0;
+	padding: 0.5rem 1rem 0.5rem 0.5rem;
+	border-radius: 7px;
+	color: #fff;
+	font-weight: 500;
+	display: flex;
+	background-color: var(--accent-color);
+	border: 0;
+	line-height: inherit;
+	text-decoration: none;
+	cursor: pointer;
+	box-shadow: 0px 3px 2px -1px rgb(4 4 4 / 20%);
+	-webkit-transition: box-shadow 0.5s cubic-bezier(0.19, 1, 0.22, 1), color 0.3s,
+		-webkit-transform 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+	transition: box-shadow 0.5s cubic-bezier(1, 1, 1, 1),
+		transform 0.5s cubic-bezier(1, 1, 0.22, 0.5), color 0.3s,
+		-webkit-transform 0.5s cubic-bezier(0.79, 1, 0.22, 1);
+}
+button:hover {
+	box-shadow: 0 1px 20px 5px rgb(255 107 107 / 70%);
+	-webkit-transform: translate(0, -0.25rem);
+	-ms-transform: translate(0, -0.25rem);
+	transform: translate(0, -0.25rem);
+	background-color: var(--accent2-color);
+	color: #fff;
+}
+button span {
+	align-self: center;
+	font-size: 1.5rem;
+	letter-spacing: -0.02rem;
+	font-family: 'Muli', Sans-Serif;
+	font-weight: bolder;
+	text-transform: capitalize;
+}
+
 input,
 button {
 	font-size: inherit;
@@ -98,6 +139,18 @@ button {
 
 button:focus:not(:focus-visible) {
 	outline: none;
+}
+
+.small-icon {
+	font-size: 1.8rem;
+    position: relative;
+    top: 0.4rem;
+    left: -0.4rem;
+}
+
+.icon {
+	font-size: 3rem;
+	margin-right: 0.2em;
 }
 
 @media (min-width: 720px) {
