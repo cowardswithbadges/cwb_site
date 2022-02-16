@@ -63,7 +63,7 @@ p {
     color: var(--text-color);
     line-height: 30px;
     font-family: 'Alegreya', Serif;
-    font-size: 1.1rem;
+    font-size: 1.15rem;
 }
 
 a {
@@ -143,14 +143,15 @@ button:focus:not(:focus-visible) {
 
 .small-icon {
 	font-size: 1.8rem;
-    position: relative;
-    top: 0.4rem;
-    left: -0.4rem;
 }
 
 .icon {
 	font-size: 3rem;
 	margin-right: 0.2em;
+}
+
+ion-icon {
+	visibility: visible;
 }
 
 @media (min-width: 720px) {

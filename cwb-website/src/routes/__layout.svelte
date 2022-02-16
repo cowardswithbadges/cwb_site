@@ -1,15 +1,24 @@
 <script>
+
 	import Footer from '$lib/footer/Footer.svelte';
 	import Header from '$lib/header/Header.svelte';
 	import Navigation from '$lib/Navigation.svelte';
 	import '../app.css';
+	export let navOpened = true;
+	$: isNavOpen = navOpened;
+
+	function toggleNavigation(){
+		navOpened = !navOpened;
+		console.log('toggle!!!')
+	}
 
 </script>
 
-<Navigation />
+
+<Navigation toggleNavigation={toggleNavigation} navOpened={isNavOpen} />
 
 <div class="col-2">
-	<Header />
+	<Header toggleNavigation={toggleNavigation} navOpened={isNavOpen}  />
 
 	<main>
 		<slot />
