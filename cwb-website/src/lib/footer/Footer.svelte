@@ -36,7 +36,7 @@
 					<a href="/about" aria-current="page">What does thin blue line mean?</a>
 					<a href="/about" aria-current="page">support the LGBTQA+ community</a>
 					<a href="/about" aria-current="page">want to stop being racist?</a>
-					<a href="/about" aria-current="page">want to stop being homophobic/transphobic?</a>
+					<a href="/about" aria-current="page">want to stop being homo/transphobic?</a>
 				</div>
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="library-outline" /> educate</h6>

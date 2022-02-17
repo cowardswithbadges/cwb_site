@@ -108,6 +108,7 @@
         justify-content: center;
         display: flex;
         flex: 1 0 auto;
+        z-index: 1;
 	}
 
     .logo-footer{

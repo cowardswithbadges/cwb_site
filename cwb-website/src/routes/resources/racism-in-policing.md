@@ -1,11 +1,10 @@
 ---
-title: What Does ACAB Mean?
-date: "2022-02-14"
+title: racism in policing
+date: "2022-02-04"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
-  - "defund"
-svg: "PoliceCar"
+  - "racism"
+svg: "Badge"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)

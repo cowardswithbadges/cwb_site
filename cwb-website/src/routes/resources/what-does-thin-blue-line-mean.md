@@ -1,11 +1,11 @@
 ---
-title: What Does ACAB Mean?
+title: what does thin blue line mean?
 date: "2022-02-14"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
-  - "defund"
-svg: "PoliceCar"
+  - "racism"
+  - "blue line"
+svg: "BluePlan"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)

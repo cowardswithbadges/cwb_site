@@ -1,11 +1,12 @@
 ---
-title: What Does ACAB Mean?
+title: what is a first amendment auditor?
 date: "2022-02-14"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
-  - "defund"
-svg: "PoliceCar"
+  - "your rights"
+  - "consitution"
+  - "auditors"
+svg: "Eye"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)

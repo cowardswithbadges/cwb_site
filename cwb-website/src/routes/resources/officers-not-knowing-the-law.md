@@ -1,11 +1,11 @@
 ---
-title: What Does ACAB Mean?
+title: Officers not knowing the law.
 date: "2022-02-14"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
   - "defund"
-svg: "PoliceCar"
+  - "law"
+svg: "Law"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)

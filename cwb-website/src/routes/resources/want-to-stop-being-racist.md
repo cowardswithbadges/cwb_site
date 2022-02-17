@@ -1,11 +1,10 @@
 ---
-title: What Does ACAB Mean?
+title: want to stop being racist?
 date: "2022-02-14"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
-  - "defund"
-svg: "PoliceCar"
+  - "racism"
+svg: "StopSign"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)

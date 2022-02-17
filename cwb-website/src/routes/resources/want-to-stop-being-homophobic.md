@@ -1,11 +1,13 @@
 ---
-title: What Does ACAB Mean?
-date: "2022-02-14"
+title: want to stop being homophobic?
+date: "2022-02-04"
 youtubeId: "EDbW7lbtHOA"
 categories: 
-  - "acab"
-  - "defund"
-svg: "PoliceCar"
+  - "homophobic"
+  - "transphobic"
+  - "pride"
+  - "LGBQIA+"
+svg: "Pride"
 ---
 
 Hello, I am _Post One._  Lipsum is good [about this](/about/)
