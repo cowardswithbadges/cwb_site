@@ -7,6 +7,7 @@ import StopSign from '$lib/svg/StopSign.svelte';
 import Pride from '$lib/svg/Pride.svelte';
 import Eye from '$lib/svg/Eye.svelte';
 import PoliceCar2 from '$lib/svg/PoliceCar2.svelte';
+import Flag from '$lib/svg/Flag.svelte';
 
 
 
@@ -19,5 +20,6 @@ export const svgComponentsMapper = {
     'StopSign': StopSign,
     'Pride': Pride,
     'Eye': Eye,
-    'PoliceCar2': PoliceCar2
+    'PoliceCar2': PoliceCar2,
+    'Flag': Flag
 };

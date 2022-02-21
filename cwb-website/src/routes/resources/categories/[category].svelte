@@ -1,5 +1,6 @@
 <script context="module">
 	export const load = async ({ params, fetch }) => {
+		console.log(params);
 		const currentCategory = params.category;
 		const response = await fetch('/api/posts.json');
 		const posts = await response.json();
@@ -13,3 +14,11 @@
 		};
 	};
 </script>
+
+<script>
+	import Grid from '$lib/content/Grid.svelte';
+	export let posts;
+</script>
+
+<h1>Categories</h1>
+<Grid posts={posts} />

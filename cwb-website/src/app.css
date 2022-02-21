@@ -11,7 +11,7 @@
 	--accent-color: rgb(196, 77, 88);
 	--accent2-color: rgb(255, 107, 107);
 	--heading-color: rgba(0, 0, 0, 0.7);
-	--text-color: rgba(22, 27, 32, 0.9);
+	--text-color: rgb(179 194 209 / 89%);
 	--background: rgba(85, 98, 112, 1);
 	--column-width: 42rem;
 	--column-margin-top: 4rem;
@@ -68,7 +68,7 @@ p {
     line-height: 30px;
     font-family: 'Alegreya', Serif;
     font-size: 1.40rem;
-	text-shadow: 0.1px 0.9px 0.1px rgb(255 255 255 / 15%);
+	text-shadow: 0.5px 0.9px 0.1px rgb(0 0 0 / 50%);
 }
 
 a {

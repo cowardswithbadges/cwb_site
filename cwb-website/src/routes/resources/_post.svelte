@@ -1,8 +1,9 @@
 <script>
 	export let title;
 	export let date;
-	export let youtubeId;
+	export let youtubeId = undefined;
 	export let categories;
+	export let svg = undefined;
 </script>
 
 <svelte:head>
@@ -73,4 +74,7 @@
 	.post-container li {
 		padding: 0px 16px;
 	}
+
+   
+
 </style>

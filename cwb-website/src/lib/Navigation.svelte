@@ -1,18 +1,17 @@
 <script>
 	import { page } from '$app/stores';
 	export let navOpened = true;
-    export let toggleNavigation;
-
+	export let toggleNavigation;
 </script>
 
 {#if navOpened}
 	<nav class="col-1">
-		<div class="corner">
-			<button on:click={toggleNavigation}>
-				<ion-icon class="small-icon" name="close-circle-outline" />
-			</button>
-		</div>
 		<ul>
+			<div class="corner">
+				<button on:click={toggleNavigation}>
+					<ion-icon class="small-icon" name="close-circle-outline" />
+				</button>
+			</div>
 			<li class:active={$page.url.pathname === '/'}>
 				<ion-icon class="small-icon" name="home-outline" />
 				<a sveltekit:prefetch href="/">Home</a>
@@ -47,7 +46,7 @@
 			</button>
 		</div>
 
-        <ul>
+		<ul>
 			<li class:active={$page.url.pathname === '/'}>
 				<ion-icon class="small-icon" name="home-outline" />
 				<a sveltekit:prefetch href="/">Home</a>
@@ -74,15 +73,13 @@
 			</li>
 		</ul>
 	</nav>
-
-
 {/if}
 
 <style>
 	nav {
 		padding: 1em;
 		background-color: var(--tertiary-color);
-        animation: open-menu 0.3s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+		animation: open-menu 0.3s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
 	}
 
 	@keyframes open-menu {
@@ -98,6 +95,8 @@
 
 	nav ul {
 		list-style-type: none;
+		position: sticky;
+		top: 3ch;
 	}
 
 	nav li {
