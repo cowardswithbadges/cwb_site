@@ -20,10 +20,10 @@
 					<h6><ion-icon class="footer-heading-icon" name="chatbubbles-sharp" /> speak up</h6>
 					<a href="https://www.facebook.com/3eecom" target="_blank">the united states constitution</a>
 					<a href="https://www.facebook.com/3eecom" target="_blank">discussions on our discord server</a>
-					<a href="https://www.youtube.com/channel/UCv-Cy54zRQgGHe5kiqpfOGA" target="_blank">tic toc</a>
+					<a href="https://www.youtube.com/channel/UCv-Cy54zRQgGHe5kiqpfOGA" target="_blank">tik tok</a>
 					<a href="https://www.youtube.com/channel/UCv-Cy54zRQgGHe5kiqpfOGA" target="_blank">snapchat</a>
 					<a href="https://www.youtube.com/channel/UCv-Cy54zRQgGHe5kiqpfOGA" target="_blank">youtube</a>
-					<a href="https://twitter.com/3ee_Games" target="_blank">twitter</a>
+					<a href="https://twitter.com/holy_acab" target="_blank">twitter</a>
 					<a href="https://www.linkedin.com/company/3ee-games" target="_blank">linkedin</a>
 					<a href="https://www.facebook.com/3eecom" target="_blank">facebook</a>
 				</div>

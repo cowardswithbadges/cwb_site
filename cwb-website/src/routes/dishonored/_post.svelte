@@ -32,7 +32,7 @@
 			<ul>
 				{#each categories as category}
 					<li>
-						<a href="/resources/categories/{category}">
+						<a href="/dishonored/categories/{category}">
 							{slugToTitle(category)}
 						</a>
 					</li>
@@ -85,4 +85,5 @@
 	.post-container li {
 		padding: 0px 16px;
 	}
+
 </style>

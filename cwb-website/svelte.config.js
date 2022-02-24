@@ -19,7 +19,8 @@ const config = {
 		mdsvex({
 			extensions: ['.md'],
 			layout: {
-				resources: '/src/routes/resources/_post.svelte'
+				resources: '/src/routes/resources/_post.svelte',
+				dishonored: '/src/routes/dishonored/_post.svelte'
 			},
 			rehypePlugins: [
         	rehypeSlug,

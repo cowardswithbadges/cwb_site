@@ -20,17 +20,17 @@
 				<ion-icon class="small-icon" name="help-circle-outline" />
 				<a sveltekit:prefetch href="/about">About</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
+			<li class:active={$page.url.pathname === '/resources/categories/human-rights'}>
 				<ion-icon class="small-icon" name="ribbon-outline" />
-				<a sveltekit:prefetch href="/todos">Your Rights</a>
+				<a sveltekit:prefetch href="/resources/categories/human-rights">Your Rights</a>
 			</li>
 			<li class:active={$page.url.pathname === '/todos'}>
 				<ion-icon class="small-icon" name="film-outline" />
 				<a sveltekit:prefetch href="/todos">Videos</a>
 			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
+			<li class:active={$page.url.pathname === '/dishonored'}>
 				<ion-icon class="small-icon" name="thumbs-down-outline" />
-				<a sveltekit:prefetch href="/todos">The Dishonored</a>
+				<a sveltekit:prefetch href="/dishonored">The Dishonored</a>
 			</li>
 			<li class:active={$page.url.pathname === '/resources'}>
 				<ion-icon class="small-icon" name="bar-chart-outline" />

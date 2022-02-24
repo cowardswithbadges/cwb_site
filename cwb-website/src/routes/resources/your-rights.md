@@ -2,7 +2,7 @@
 title: Universal Declaration of Human Rights
 date: "2022-02-18"
 categories: 
-  - "human rights"
+  - "human-rights"
   - "law"
 svg: "Flag"
 ---
