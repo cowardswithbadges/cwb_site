@@ -51,8 +51,9 @@
 			frameborder="0"
 		/>
 	{/if}
-
-	<slot />
+	<div class="post-content">
+		<slot />
+	</div>
 </article>
 
 <style>
@@ -82,7 +83,8 @@
 		flex: 1 0 auto;
 	}
 
-	.post-container li {
+	.post-container aside li {
 		padding: 0px 16px;
 	}
+
 </style>

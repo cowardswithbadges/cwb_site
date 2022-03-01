@@ -19,32 +19,95 @@
 </svelte:head>
 
 <div class="content">
-	<h1>About this app</h1>
+	<h1>about our cause</h1>
 
 	<p>
-		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
-		following into your command line and following the prompts:
+		Our vision is to ensure a society where law enforcement no longer serves a racist system that
+		bases itself on lies, discrimination, and has a finanical agenda. We support divesting funds
+		from police departments and reallocating to non-policing forms of mental health care, community
+		support, education, employment, and other community resources.
+	</p>
+	<h4 id="the-system-is-corrupt">
+		<a aria-hidden="true" tabindex="-1" href="#the-system-is-corrupt" />
+		<span class="icon icon-link" />the system is corrupt
+	</h4>
+
+	<p>
+		The current judicial process in America is designed for individuals that have been arrested of a
+		crime, either innocent or guilty - to fail. This system's focal point is to generate money for
+		government. The victims of this system lose their children, jobs, homes, finanical independence,
+		and their lives.
 	</p>
 
-	<!-- TODO lose the @next! -->
-	<pre>npm init svelte@next</pre>
+	<p>
+		While there are many reasons for an individual to break a law, the jail and prison systems offer
+		no education, training, or support to help a person turn their live around. The criminal courts
+		and probation services force individuals to pay an unfair amount of fees ranging from court
+		costs, restitution, child support, probation, and many other avenues that would be considered
+		extortion. If these fees are not paid on time, often the individuals will lose their driver's
+		license. Over time this leads to unemployment, as criminal backgrounds drastically reduces
+		employment opportunities. By design, all these facets causes individuals caught in this sytem to
+		commit more crimes and continue the cycle of government making money off of them.
+	</p>
+
+	<h4 id="police-officers-are-under-trained">
+		<a aria-hidden="true" tabindex="-1" href="#police-officers-are-under-trained" />
+		<span class="icon icon-link" />Police Officers are under-trained & over-armed
+	</h4>
 
 	<p>
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		Police Officers have demonstrated time and time again that they are under-trained and
+		over-armed. These officers do not know the laws they are enforcing. Deallocating funds that
+		militarize law enforcement need to be put to use into a fund that supports an individual's
+		education, employment, mental health, and family support. Police Officers can often be observed
+		on a daily basis looking for petty crimes, for example: a broken tail light, jay-walking,
+		running a stop sign, disorderly conduct, victimless crimes such as a person in possession of
+		marijuana. Law enforcement officers use these crimes as a way to look or fish for more
+		infractions. Police Officers lie, make up laws, and <a href="/resources/categories/human-rights"
+			>violate our rights</a
+		> every day.
 	</p>
 
 	<p>
-		The <a href="/todos">TODOs</a> page illustrates SvelteKit's data loading and form handling. Try using
-		it with JavaScript disabled!
+		As a society, we've been trained to believe that laws against petty crimes is for public saftey,
+		however that is far from the truth. The term known as "broken windows policing", meaning
+		targeting low-level offenses, defunding those areas of police work and allocating those funds to
+		another agency that provides replacement vehicle lights, anger management courses, mental health
+		evaluations and medications, and training on changing habits would stop the financial incentive
+		for policing and government. Society would be encouraged to use those resources instead of law
+		enforcement using overcriminalization, violating our rights, excessive use of force, and killing
+		people.
+	</p>
+
+	<h4 id="providing-education">
+		<a aria-hidden="true" tabindex="-1" href="#providing-education" />
+		<span class="icon icon-link" />providing education and exposing corruption
+	</h4>
+
+	<p>
+		Corrupt Police Officers, Judges, Attorneys, Child Protective Agents, courts, and other
+		government officicals such as commissioners and mayors, will use their badge and authority to
+		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
+		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
+		rape, sexual assault on children, human trafficking, and murder. They are <a href="/"
+			>Cowards with Badges</a
+		>. We will expose, educate, and document these cowards and break their immunity bubble safe
+		haven.
+	</p>
+
+	<p>
+		Everyone is welcome to read, share, use, and educate others with all of our content. Our agenda
+		is to educate without any sugar coating. For example, we do not use terms that the media uses
+		such as "allegedly", "reportedly", "presumably"... if a police officer is on video <a
+			href="/dishonored/christopher-pullease">choking a female police officer</a
+		> - there is nothing "alleged" about that - the officer choked another officer.
 	</p>
 </div>
 
 <style>
-	.content {
+	/*.content {
 		width: 100%;
 		max-width: var(--column-width);
 		margin: var(--column-margin-top) auto 0 auto;
-	}
+	}*/
 </style>

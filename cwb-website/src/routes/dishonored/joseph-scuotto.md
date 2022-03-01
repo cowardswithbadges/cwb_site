@@ -80,7 +80,9 @@ Assistant Deputy Mayor Mark Douglas told Scuotto to "shut up".  Then it led to S
 
 "What're you going to do? What're you going to do? Don't tell me to shut up.  "Who do you think you are? A tough guy?" replied Scuotto. 
 
-Douglas then said: "In Scuotto's display of ignorance he is prepared to accuse everyone else of spinning the story, but as a leader of the community, it was not important enough to watch the video by his own admission.  *It is never ever OK*, to refer to another human, a member of our community or someone in our police custody as a 'piece of shit.' But as usual, after 25 years as a commissioner in our city, who elected its first minority in 2016 after 56 years, Scuotto is trying to hang on to the good old boy mentality of seeing no evil, hearing no evil, and defending the indefensible at all cost as long as it involves 'certain' people for whom he has nothing but contempt."
+Douglas later said: 
+
+> * "In Scuotto's display of ignorance he is prepared to accuse everyone else of spinning the story, but as a leader of the community, it was not important enough to watch the video by his own admission.  *It is never ever OK*, to refer to another human, a member of our community or someone in our police custody as a 'piece of shit.' But as usual, after 25 years as a commissioner in our city, who elected its first minority in 2016 after 56 years, Scuotto is trying to hang on to the good old boy mentality of seeing no evil, hearing no evil, and defending the indefensible at all cost as long as it involves 'certain' people for whom he has nothing but contempt."
 
 The meeting was put into recess.
 
@@ -108,29 +110,7 @@ Fax: (954) 746-3243
 CityCommission@sunrisefl.gov 
 
 <style>
-  h4 {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    padding: 0;
-    margin: 1rem 0;
-    font-family: 'Alegreya', Serif;
-    text-transform: uppercase;
-}
 
-h4 a::before{
-    content: '#';
-    position: relative;
-    left: 0;
-    top: 0;
-    line-height: 1;
-    text-decoration: none;
-    color: var(--accent2-color);
-}
-
-h4 a:hover::before{
-    color: var(--accent2-color);
-    text-decoration: underline;
-}
 
 li{
     color: var(--primary-color);

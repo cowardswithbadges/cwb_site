@@ -160,8 +160,42 @@ main.homepage{
 	margin: 0;
 }
 
+h4 {
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    padding: 0;
+    margin: 1rem 0;
+    font-family: 'Alegreya', Serif;
+    text-transform: uppercase;
+}
+
+h4 a::before{
+    content: '#';
+    position: relative;
+    left: 0;
+    top: 0;
+    line-height: 1;
+    text-decoration: none;
+    color: var(--accent2-color);
+}
+
+h4 a:hover::before{
+    color: var(--accent2-color);
+    text-decoration: underline;
+}
+
 ion-icon {
 	visibility: visible;
+}
+
+.post-content li {
+	color: var(--primary-color);
+	font-family: 'Alegreya', Serif;
+	font-size: 1.5rem;
+}
+
+blockquote ul{
+	list-style-type : none;
 }
 
 @media (min-width: 720px) {

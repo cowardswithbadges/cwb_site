@@ -278,36 +278,3 @@ Nothing in this Declaration may be interpreted as implying for any State, group 
 person any right to engage in any activity or to perform any act aimed at the
 destruction of any of the rights and freedoms set forth herein. 
 
-
-<style>
-  h4 {
-    font-size: 1.8rem;
-    color: var(--primary-color);
-    padding: 0;
-    margin: 1rem 0;
-    font-family: 'Alegreya', Serif;
-    text-transform: uppercase;
-}
-
-h4 a::before{
-    content: '#';
-    position: relative;
-    left: 0;
-    top: 0;
-    line-height: 1;
-    text-decoration: none;
-    color: var(--accent2-color);
-}
-
-h4 a:hover::before{
-    color: var(--accent2-color);
-    text-decoration: underline;
-}
-
-li{
-    color: var(--primary-color);
-    font-family: 'Alegreya', Serif;
-    font-size: 1.5rem;
-  
-}
-</style>
