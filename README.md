@@ -1,1 +1,7 @@
 # cwb_site
+
+AmazonS3FullAccess
+
+AKIA3RSY235EGMMJFS25
+
+SaCX0/0qjNiX16YF2IyjSJQjX+J1eZMe8xutcV5F

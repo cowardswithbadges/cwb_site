@@ -1,6 +1,6 @@
 ---
 title: Defunding the police?
-date: "2022-02-14"
+date: "2022-03-01"
 youtubeId: "xg6YV_5Om3s"
 categories: 
   - "defund"
@@ -30,7 +30,6 @@ svg: "Money"
         17, 14, 9, 8, 14, 6, 4, 2, 
         30, 18, 16, 21, 13, 5, 11, 11, 11, 9, 5, 19, 9, 4,  
         13, 5, 5, 8, 3, 17, 9, 8, 4, 11, 9, 4, 8, 7, 3, 1],
-
 
         backgroundColor: ["#add8e6", "#b0c4de", "#87cefa", "#87ceeb", "#6495ed", "#4169e1", "#1e90ff",
          "#00bfff", "#00bfff", "#0000cd", "#041690", "#191970", "#000080", "#21abcd", "#bcd4e6", "#abcdef", 
@@ -75,7 +74,6 @@ svg: "Money"
           "#c23b22",
           "#45b1e8",
           "#00aae4",
-
           "#800020",
           "#ae2029",
           "#cf1020",
@@ -123,6 +121,15 @@ There are studies suggesting that less policing could mean less crime. In 2014 a
 
 The role of the police officer spans a wide range of overlapping services.  In the end, the role of a law enforement officer becomes "Jack of all trades, master of none".  Most white male cops choose to specialize in sharpshooting and being more of a "warrior that doesn't take any shit" than a protector and peace keeper.  These officers are generally called tyrants.
 
+The roles of warrior cops, traffic patrols and tax collectors in such a way that virtually guarantees a large number of violent confrontations between police and civilians. The United States has about 40 percent more police officers than England or Australia, but adjusting for population, US law enforcement kills 20 to 100 times as many people.
+
+[Derek Thompson](https://twitter.com/DKThomp/status/1269745166493024257), a staff writer at The Atlantic wrote:
+
+> * "Policing is a bundle. The challenge before the Defund movement is separating the most toxic parts of the bundle without destroying services whose abolition will doom the project, politically."
+
+Each year, 50 million Americans come into contact with the police at least once, according to a 2015 report from the Bureau of Justice Statistics, [Contacts Between Police
+and the Public](https://cowards-with-badges.s3.amazonaws.com/pdfs/contact_between_police_public.pdf). Half of Americans are pulled over in a car that they're driving (19 million), passenger (6 million). Another 8 million are involved in a car accident. 9 million more said that they called the police about a non-crime. Among the most common reasons for those calls?  More traffic accidents - Over all, American policing boils down to broken windows policing.
+
 Police officers are functionally generalists responsible for dealing with a vast array of our society's most sensitive situations; yet we've recruited, hired, trained, equipped, and deployed them to be specialists in force. And we’ve done it all using an often disproportionately white police force with a well-documented racial bias problem entering Black and brown communities that historically distrust the police.
 
 Former British police officer, college professor - [Jerry Ratcliffe](https://www.jratcliffe.net/about), author of [Intelligence-Led Policing](https://www.amazon.com/Intelligence-Led-Policing-Jerry-H-Ratcliffe/dp/113885901X) researched the [volume of incidents in 2015 in the City of Philadelphia](https://www.jratcliffe.net/post/policing-explained-in-a-few-graphs) (about 1.5 million in total). These incidents can come from verified calls for service from the public (something really took place as confirmed by a police officer), or from officer-initiated events (such as drug incidents). 
@@ -137,17 +144,17 @@ Former British police officer, college professor - [Jerry Ratcliffe](https://www
   <Doughnut {data} {options} />
 </div>
 
-Barry Friedman, author of ["Disaggregating the Policing Function"](https://cwb.com/sdsd) and the director of the Policing Project at New York University’s School of Law, breaks down the enormous array of tasks and responsibilities into a handful of distinct roles:
+Barry Friedman, author of ["Disaggregating the Policing Function"](https://cowards-with-badges.s3.amazonaws.com/pdfs/disaggregating_the_policing_function.pdf) and the director of the Policing Project at New York University’s School of Law, breaks down the enormous array of tasks and responsibilities into a handful of distinct roles:
 
 1.  The traffic cop.
   
   The majority of police-civilian interactions take place on the road. Police help stranded motorists with broken-down cars, take reports in car accidents, direct traffic around serious incidents in which other responders are needed, set and staff speed "traps", and issue citations. And when police are off-call, they spend much of their time performing routine street patrol.
 
-2.  The mediator cop.
+2.  The mediator.
 
     Domestic disputes, noise disputes, neighbor trouble, people on other people’s property. People sitting on stoops, being raucous on corners. People complaining about things they observe and wanting the cops to put a stop to it.
 
-3.  The social worker cop.
+3.  The social worker.
 
   A lot of what cops are asked to do in response to calls is be social workers. Cops are forced to play "veterinary surgeon, mental welfare officer, marriage guidance counselor, home-help to the infirm, welfare worker friend and confidant."  Officers are asked to deal with problems within families and other relationships: domestic violence, marital disputes, and the like.  There is mental illness, homelessness, substance abuse.
 
@@ -155,9 +162,28 @@ Barry Friedman, author of ["Disaggregating the Policing Function"](https://cwb.c
 
   In most jurisdictions, the only government entities that respond to problems 24 hours a day, seven days a week are police, fire, and emergency medical services. That means for the vast majority of social problems, police are often the default institution for people to call. This is how cops get stuck chasing runaway dogs, tracking down welfare checks, dealing with noise complaints, and a whole host of other issues that appear to have nothing to do with policing.
 
-5.  The crime-fighting, law enforcement cop.
+5.  The crime-fighter.
 
   There is something to be said for rapid response by force- and law-trained individuals to situations involving serious criminal activity. However, studies find that this time is mostly spent interviewing witnesses, gathering evidence, advising victims, and writing reports. "Often cops are just there to pick up the pieces after the fact," says Peter Moskos, a former Baltimore police officer and criminologist at John Jay College. "By the time you arrive, the crime is usually no longer in progress."
+
+
+#### SHERIFFS PLAY KEY ROLES IN MASS INCARCERATION AND WHITE SUPREMACY
+
+[The Paid Jailer](https://www.thepaidjailer.org/) uncovered that sheriff campaign dollars shape mass incarceration.  Within their report, construction companies and real estate businesses are the number
+one contributer to sheriff campaigns, ranging from $1,620,611.  Construction and real estate companies go on to build bigger jails.  The report also finds that $6,000,000 in campaign contributions that create potential conflicts of interest for the sheriffs. The Paid Jailer has the data to back up their claims.  This organization provides a [search application](https://www.thepaidjailer.org/general-2) to look up and see where campaign funds are coming from and the total amount given.
+
+A brief summary of The Paid Jailer's findings:
+
+* 90% of sheriffs are white men, and a growing number of sheriffs have ties with white supremacist groups and far-right militias.
+
+* More than 1,000 people die in county jails each year, and many of those deaths are preventable with proper medical and mental health care.
+
+* Sheriffs serve as the bridge to mass deportation. In 2018, 47 percent of internal deportations came through sheriffs.
+
+* Sheriff’s deputies kill people at a disproportionate rate, accounting for more than 400 shooting deaths per year.
+
+[Download the Paid Jailer Report](https://cowards-with-badges.s3.amazonaws.com/pdfs/paid_jailer.pdf)
+
 
 #### What does Defunding Police look like?
 
@@ -174,7 +200,7 @@ managing the flow of people in and out of their custody."
 
   Many of these people are in jail for petty crimes.  However, the inmates would rather spend the time in jail for 30 days to 6 months instead of agreeing to probation.  Meeting and paying a probation officer may last up to 6 months to 12 years, depending on the charges.
 
-  [Learn More](https://cwb/)
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/sheriffs_closing_jails.pdf)
 
 2. End the Use of Deputies in Traffic Stops & Limit Arrests.
 
@@ -182,19 +208,19 @@ managing the flow of people in and out of their custody."
 
    As a society, we've been trained to believe that laws against petty crimes is for public saftey, however that is far from the truth. The term known as "broken windows policing", meaning targeting low-level offenses, only creates more problems and criminalizes the poor, people without housing, and has a financial incentive for police, attorneys, judges, and the court systems.
 
-   [Learn More](https://cwb/)
+   [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/end_traffic_stops_limit_arrests.pdf)
 
 3. End Jail Deaths and Solitary Confinement.
 
   "People in the custody and control of sheriffs die at alarming rates — by suicide, during drug withdrawal, from untreated pre-existing medical conditions exacerbated by inadequate jail conditions and medical care, or from assaults committed by jail staff or other detained individuals. More than 1,000 incarcerated people die each year."
 
-  [Learn More](https://cwb/)
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/end_jail_deaths.pdf)
 
 4. Get Out of Immigration Enforcement.
 
   "The involvement of local law enforcement in immigration enforcement tears apart families and communities. The vast majority of sheriffs collaborate with ICE, even though no federal laws require them to do so: they share information with ICE, hold people in their custody for ICE, rent beds in their jail to ICE, or participate in programs that empower deputies to carry out the duties of ICE."
 
-  [Learn More](https://cwb/)
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/immigration_enforcement.pdf)
 
 5. Remove Deputies from Schools.
 
@@ -202,20 +228,19 @@ managing the flow of people in and out of their custody."
 
   As researched by [Martha L. Raimon](https://cssp.org/team/martha-raimon/): "By contrast, there is no [conclusive evidence](https://www.endzerotolerance.org/single-post/2019/03/11/Research-on-the-Impact-of-School-Policing) that police in schools improve either students’ mental health, educational outcomes, or their safety. Instead, this practice has led to the criminalization of youth, particularly youth of color and those with disabilities, and has helped to create the school-to-prison pipeline."
 
-  [Learn More](https://cwb/)
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/remove_deputies_from_schools.pdf)
 
 6. Stop Evictions and Civil Asset Seizure.
 
   "In addition to their criminal enforcement duties, sheriffs also play a major role in enforcing civil judgments. They have the authority to seize assets — a process known as civil asset forfeiture — and the power to enforce evictions. Civil asset forfeiture has led to considerable abuse by law enforcement and has deprived people of their homes, cars, and savings, even without criminal charges or convictions."
 
-  [Learn More](https://cwb/)
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/civil_asset_seizure.pdf)
 
 7. Reallocate Resources to Community-based Systems of Health, Violence Interruption, and Substance Use Treatment.
 
   "Sheriffs have broad power when it comes to their budgets, and while local governments fund sheriffs’ offices, they have limited authority to dictate how a sheriff uses the money. Given the discretion sheriffs have over their budgets, they should support the reallocation of resources away from a law enforcement-centered approach to community safety and well-being and toward a community-based system of care and treatment."
 
-  [Learn More](https://cwb/)
-
+  [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/reallocate_resources.pdf)
 
 
 <style>
