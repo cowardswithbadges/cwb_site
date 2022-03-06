@@ -11,7 +11,7 @@
 				</div>
 				<p class="legal">&copy; Copyright 2022 Cowards with Badges. All rights reserved.</p>
 				<p class="legal">
-					In memory of all civilians murdered by police, <a href="about">say their names</a> 🖤
+					In memory of all civilians murdered by police, <a href="/say-their-names">say their names</a> 🖤
 				</p>
 			</div>
 
