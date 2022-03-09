@@ -1,10 +1,11 @@
 ---
 title: Officers don't have to know law.
-date: "2022-02-14"
+date: "2022-03-03"
 youtubeId: "6wsDmZo9UMI"
 categories: 
   - "defund"
   - "law"
+  - "ACAB"
 svg: "Law"
 ---
 

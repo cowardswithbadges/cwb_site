@@ -8,9 +8,11 @@ categories:
 svg: "PoliceFemaleDark"
 ---
 
-MCPD said they received a call for service at the elementary school on Jan. 14 in regards to a 5-year-old student who had left the school grounds and "did not wish to return." 
+MCPD said they received a call for service at the elementary school on Jan. 14 in regards to a 5-year-old student who had left the school grounds and "did not wish to return" 
 
 Two MCPD officers, Dionne Holliday and [Kevin Christmon](/dishonored/kevin-christmon) responded to the call for service.
+
+#### Dionne Holliday arrests a five year old boy.
 
 The officers confronted the boy less than a quarter-mile from the school. They were immediately stern with the child, according to a body camera video released of the incident in 2020, and become increasingly aggressive as the boy gets more upset.
 
@@ -21,6 +23,8 @@ Within the body camera video, Kevin Christmon can be heard yelling at the studen
 Just a little past the 13 minute mark, the male officer is heard saying that they received a call for a dispute involving a 5-year-old and that he had walked out of the school not wanting to come back even after a staff member followed him to try and get him back in.
 
 Then fast forward to the 30 minute mark and the officers are heard discussing with the mother, what the child did at the school including hitting teachers and other students, breaking a $1,000 computer, throwing an eraser before he walked off property.
+
+#### Child Abuse
 
 When he is seated, Holliday is shown letting out five screams inches from the boy’s face, mocking the 5-year-old’s cries.  "I need to beat on somebody," she then said, one of several references the officers made to "beating" children or the boy.
 
@@ -35,6 +39,8 @@ The family filed a lawsuit in January 2021 against the officers and MCPS for ass
 Several speakers, including U.S. Reps. Jamie Raskin and Anthony Brown — reflected on their initial reaction to the video.
 
 Brown said it brought him to tears. Raskin called it "horrifying."
+
+#### Government Bullies
 
 "We have grownups bullying a child and agents of the government who are supposed to be on the side of rule of law and of the people bullying a little kid," Raskin said. "That's what’s so heartbreaking about the whole thing."
 

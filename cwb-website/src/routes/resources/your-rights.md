@@ -1,6 +1,6 @@
 ---
 title: Universal Declaration of Human Rights
-date: "2022-02-18"
+date: "2022-02-02"
 categories: 
   - "human-rights"
   - "law"

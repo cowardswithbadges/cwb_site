@@ -23,6 +23,7 @@ import JudgeGavel from '$lib/svg/JudgeGavel.svelte';
 import JudgeGavel2 from '$lib/svg/JudgeGavel2.svelte';
 import JudgeMaleLight from '$lib/svg/JudgeMaleLight.svelte';
 import HotHead from '$lib/svg/HotHead.svelte';
+import Book from '$lib/svg/Book.svelte';
 
 export const svgComponentsMapper = {
     'PoliceCar': PoliceCar,
@@ -49,13 +50,6 @@ export const svgComponentsMapper = {
     'JudgeGavel': JudgeGavel,
     'JudgeGavel2': JudgeGavel2,
     'JudgeMaleLight': JudgeMaleLight,
-    'HotHead': HotHead
-
-
-
-
-
-
-
-
+    'HotHead': HotHead,
+    'Book': Book,
 };
