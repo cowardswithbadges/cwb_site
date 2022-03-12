@@ -47,7 +47,6 @@ People of color are judged more harshly for crimes they commit.  The United Stat
 
 <AverageSentence />
 
-
 #### Does the criminal justice system do anything to help?
 
 Far from offering people a "second chance," the American criminal justice system frequently punishes those who never had a first chance: people in poverty. By focusing law enforcement on low-level offenses and subjecting criminal defendants to money bail and other fees, this country effectively punishes people for being poor.

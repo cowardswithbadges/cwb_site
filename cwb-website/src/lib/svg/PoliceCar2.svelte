@@ -40,4 +40,24 @@
 		width: 34vh;
 		padding: 0 5rem;
 	}
+
+	/* Medium screens */
+	@media all and (max-width: 1200px) {
+		svg {
+			padding: 0 2rem;
+		}
+	}
+
+	/* Medium screens */
+	@media all and (min-width: 801px) {
+		svg {
+			padding: 0 1.6rem;
+		}
+	}
+
+	@media all and (max-width: 801px) {
+		svg {
+			padding: 0 1.0rem;
+		}
+	}
 </style>

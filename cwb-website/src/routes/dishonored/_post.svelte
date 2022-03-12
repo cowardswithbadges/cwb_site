@@ -43,6 +43,7 @@
 
 	{#if typeof youtubeId !== 'undefined'}
 		<iframe
+			title="Video Player"
 			id="ytplayer"
 			type="text/html"
 			width="100%"
@@ -72,18 +73,22 @@
 		flex: 1;
 		flex-flow: row wrap;
 		width: 100%;
+		
 	}
 
 	.post-container ul {
-		display: inline-flex;
+		display: inline;
 		list-style-type: none;
 		margin: auto;
 		padding: 0;
 		flex: 1 0 auto;
+		width: 90%;
 	}
 
 	.post-container li {
 		padding: 0px 16px;
+		display: inline-flex;
+		
 	}
 
 </style>

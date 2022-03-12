@@ -115,4 +115,46 @@
         width: 30vh;
 		height: 30vh;
 	}
+
+
+	@media all and (min-width: 801px) and (max-width: 1009px) {
+		.logo {
+			animation: logo-resize-med 0.8s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+		}
+	}
+
+	@keyframes logo-resize-med {
+		0% {
+			transform: scale(1.0);
+		}
+
+		100% {
+			transform: translate(0, -10px) scale(0.7);
+			
+		}
+	}
+
+	@media all and (min-width: 100px) and (max-width: 800px) {
+		.logo {
+			animation: logo-resize-small 0.8s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+		}
+
+		.logo-footer{
+			width: 100%;
+    		height: 100%;
+		}
+	}
+
+	@keyframes logo-resize-small {
+		0% {
+			transform: translate(0, -10px) scale(0.7);
+		}
+
+		100% {
+			transform: translate(0, -15px) scale(0.7);
+		}
+	}
+
+
+
 </style>

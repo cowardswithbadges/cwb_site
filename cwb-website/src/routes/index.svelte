@@ -5,19 +5,24 @@
 		const posts = await fetch('/api/posts.json');
 		const topResources = await posts.json();
 
+		const dishonored = await fetch('/api/dishonor.json');
+		const topDishonored = await dishonored.json();
+
 		return {
 			props: {
-				posts: topResources.slice(0, 3)
+				posts: topResources.slice(0, 3),
+				dishonored: topDishonored.slice(0, 3)
 			}
 		};
 	};
 </script>
 
 <script>
-	//import Counter from '$lib/Counter.svelte';
+	import { goto } from '$app/navigation';
 	import Grid from '$lib/content/Grid.svelte';
 	import { svgComponentsMapper } from '$lib/svg/svgMapper.js';
 	export let posts;
+	export let dishonored;
 </script>
 
 <svelte:head>
@@ -30,72 +35,43 @@
 		<div class="banner-right">
 			<h1 class="banner-header">Discover why the role of police needs change.</h1>
 
-			<button>
+			<button
+				on:click={() => {
+					goto(`/about`);
+				}}
+			>
 				<ion-icon class="icon" name="arrow-forward-circle-outline" />
 				<span>Learn More</span>
 			</button>
 		</div>
 	</div>
 	<h2>the latest resources</h2>
-	<Grid posts={posts} />
-	
-	<article>
-		<button>
+	<Grid {posts} />
+
+	<section>
+		<button
+			on:click={() => {
+				goto(`/resources`);
+			}}
+		>
 			<ion-icon class="icon" name="arrow-forward-circle-outline" />
-			<span>Learn More</span>
+			<span>See More resources</span>
 		</button>
-		<h1>what defuning police means.</h1>
-		<p>
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-			classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-			Latin professor at <a href="/">Hampden-Sydney</a> College in Virginia, looked up one of the more
-			obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
-			word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-			1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-			written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-			The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-		</p>
+	</section>
 
-		<p>
-			There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-			alteration in some form, by injected humour, or randomised words which don't look even
-			slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-			there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
-			on the Internet tend to repeat predefined chunks as necessary, making this the first true
-			generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
-			handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The
-			generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-			non-characteristic words etc.
-		</p>
+	<h2>the newest cowards</h2>
+	<Grid posts={dishonored} />
 
-		<p>
-			Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-			classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-			Latin professor at <a href="/">Hampden-Sydney</a> College in Virginia, looked up one of the more
-			obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the
-			word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections
-			1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-			written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
-			The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-		</p>
-
-		<p>
-			There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-			alteration in some form, by injected humour, or randomised words which don't look even
-			slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure
-			there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators
-			on the Internet tend to repeat predefined chunks as necessary, making this the first true
-			generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a
-			handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The
-			generated Lorem Ipsum is therefore always free from repetition, injected humour, or
-			non-characteristic words etc.
-		</p>
-
-		<button>
+	<section>
+		<button
+			on:click={() => {
+				goto(`/dishonored`);
+			}}
+		>
 			<ion-icon class="icon" name="arrow-forward-circle-outline" />
-			<span>Learn More</span>
+			<span>See More cowards</span>
 		</button>
-	</article>
+	</section>
 </div>
 
 <style>
@@ -130,7 +106,7 @@
 		line-height: 52px;
 		letter-spacing: 0px;
 		text-shadow: 2.1px 0.9px 0.9px rgb(255 255 255 / 45%);
-		max-width: 45vw;
+		max-width: 30ch;
 	}
 
 	h2 {
@@ -143,4 +119,49 @@
 		text-transform: uppercase;
 	}
 
+	section {
+		padding: 0rem;
+		justify-content: center;
+		display: flex;
+	}
+
+	/* Medium screens */
+	@media all and (max-width: 1300px) {
+		h1.banner-header {
+			font-size: 2.6rem;
+			line-height: 2.4rem;
+			max-width: 25ch;
+		}
+	}
+
+	/* Medium screens */
+	@media all and (max-width: 1114px) {
+		h1.banner-header {
+			font-size: 2.3rem;
+		}
+	}
+
+	@media all and (min-width: 901px) and (max-width: 1000px) {
+		h1.banner-header {
+			font-size: 2.5rem;
+			line-height: 2.5rem;
+		}
+	}
+
+	@media all and (min-width: 801px) and (max-width: 900px) {
+		h1.banner-header {
+			font-size: 1.9rem;
+			line-height: 1.8rem;
+
+			margin: 2rem 0 0 0;
+		}
+	}
+
+	@media all and (max-width: 500px) {
+		h1.banner-header {
+			font-size: 1.6rem;
+			line-height: 1.6rem;
+			margin: 2rem 0 0 0;
+		}
+	}
 </style>

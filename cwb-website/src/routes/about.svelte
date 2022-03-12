@@ -27,6 +27,7 @@
 		from police departments and reallocating to non-policing forms of mental health care, community
 		support, education, employment, and other community resources.
 	</p>
+
 	<h4 id="the-system-is-corrupt">
 		<a aria-hidden="true" tabindex="-1" href="#the-system-is-corrupt" />
 		<span class="icon icon-link" />the system is corrupt
@@ -57,15 +58,13 @@
 
 	<p>
 		Police Officers have demonstrated time and time again that they are under-trained and
-		over-armed. These officers do not know the laws they are enforcing. Deallocating funds that
-		militarize law enforcement need to be put to use into a fund that supports an individual's
+		over-armed. These officers <a href="/resources/officers-donot-have-to-know-law">do not know the laws</a> they are enforcing. <a href="/resources/defunding-police">
+		Deallocating funds that militarize law enforcement</a> need to be put to use into a fund that supports an individual's
 		education, employment, mental health, and family support. Police Officers can often be observed
 		on a daily basis looking for petty crimes, for example: a broken tail light, jay-walking,
 		running a stop sign, disorderly conduct, victimless crimes such as a person in possession of
 		marijuana. Law enforcement officers use these crimes as a way to look or fish for more
-		infractions. Police Officers lie, make up laws, and <a href="/resources/categories/human-rights"
-			>violate our rights</a
-		> every day.
+		infractions. Police Officers lie, make up laws, and <a href="/resources/categories/human-rights">violate our rights</a> every day.
 	</p>
 
 	<p>
@@ -86,7 +85,7 @@
 
 	<p>
 		Corrupt Police Officers, Judges, Attorneys, Child Protective Agents, courts, and other
-		government officicals such as commissioners and mayors, will use their badge and authority to
+		government officials such as commissioners and mayors, will use their badge and authority to
 		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
 		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
 		rape, sexual assault on children, human trafficking, and murder. They are <a href="/"
@@ -105,9 +104,5 @@
 </div>
 
 <style>
-	/*.content {
-		width: 100%;
-		max-width: var(--column-width);
-		margin: var(--column-margin-top) auto 0 auto;
-	}*/
+
 </style>

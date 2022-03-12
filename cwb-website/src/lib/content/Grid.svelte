@@ -1,11 +1,14 @@
 <script>
     export let posts;
+	import { goto } from '$app/navigation';
     import { svgComponentsMapper } from '$lib/svg/svgMapper.js';
 </script>
 
 <ul>
 	{#each posts as post}
-		<li>
+		<li on:click={() => {
+			goto(post.path);
+		}}>
 			{#if typeof post.meta.svg !== 'undefined'}
 				<span><svelte:component this={svgComponentsMapper[post.meta.svg]} /></span>
 			{/if}
@@ -36,10 +39,10 @@
 		background-color: var(--resource-background-color);
 		border-radius: 10px;
 		margin: 1rem;
+		cursor: pointer;
 	}
 
 	li span {
-		width: auto;
 		justify-content: space-evenly;
 		display: flex;
 	}
@@ -61,17 +64,14 @@
 
 	/* Medium screens */
 	@media all and (max-width: 800px) {
-		ul {
-			/* When on medium sized screens, we center it by evenly distributing empty space around items */
-			justify-content: flex-start;
+		ul{
+			justify-content: space-evenly;
 		}
-	}
 
-	/* Small screens */
-	@media all and (max-width: 500px) {
-		ul {
-			/* On small screens, we are no longer using row direction but column */
-			flex-direction: column;
+		li{
+			max-width: 90vw;
+			min-width: 85%;
 		}
+		
 	}
 </style>

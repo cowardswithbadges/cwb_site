@@ -1,41 +1,71 @@
 <script>
 	import { page } from '$app/stores';
+	import MediaQuery from '$lib/content/MediaQuery.svelte';
 	export let navOpened = true;
 	export let toggleNavigation;
 </script>
 
 {#if navOpened}
-	<nav class="col-1">
+	<nav class="col-1 nav-open">
 		<ul>
 			<div class="corner">
 				<button on:click={toggleNavigation}>
 					<ion-icon class="small-icon" name="close-circle-outline" />
 				</button>
 			</div>
-			<li class:active={$page.url.pathname === '/'}>
-				<ion-icon class="small-icon" name="home-outline" />
-				<a sveltekit:prefetch href="/">Home</a>
-			</li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<ion-icon class="small-icon" name="help-circle-outline" />
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.url.pathname === '/resources/categories/human-rights'}>
-				<ion-icon class="small-icon" name="ribbon-outline" />
-				<a sveltekit:prefetch href="/resources/categories/human-rights">Your Rights</a>
-			</li>
-			<!--<li class:active={$page.url.pathname === '/todos'}>
-				<ion-icon class="small-icon" name="film-outline" />
-				<a sveltekit:prefetch href="/todos">Videos</a>
-			</li> -->
-			<li class:active={$page.url.pathname === '/dishonored'}>
-				<ion-icon class="small-icon" name="thumbs-down-outline" />
-				<a sveltekit:prefetch href="/dishonored">The Dishonored</a>
-			</li>
-			<li class:active={$page.url.pathname === '/resources'}>
-				<ion-icon class="small-icon" name="bar-chart-outline" />
-				<a sveltekit:prefetch href="/resources">Resources</a>
-			</li>
+			<MediaQuery query="(max-width: 800px)" let:matches>
+				<li class:active={$page.url.pathname === '/'}>
+					<ion-icon class="small-icon" name="home-outline" />
+					{#if matches}
+						<a on:click={toggleNavigation} sveltekit:prefetch href="/">Home</a>
+					{:else}
+						<a sveltekit:prefetch href="/">Home</a>
+					{/if}
+				</li>
+				<li class:active={$page.url.pathname === '/about'}>
+					<ion-icon class="small-icon" name="help-circle-outline" />
+
+					{#if matches}
+						<a on:click={toggleNavigation} sveltekit:prefetch href="/about">About</a>
+					{:else}
+						<a sveltekit:prefetch href="/about">About</a>
+					{/if}
+				</li>
+				<li class:active={$page.url.pathname === '/resources/categories/human-rights'}>
+					<ion-icon class="small-icon" name="ribbon-outline" />
+
+					{#if matches}
+						<a
+							on:click={toggleNavigation}
+							sveltekit:prefetch
+							href="/resources/categories/human-rights">Your Rights</a
+						>
+					{:else}
+						<a sveltekit:prefetch href="/resources/categories/human-rights">Your Rights</a>
+					{/if}
+				</li>
+				<!--<li class:active={$page.url.pathname === '/todos'}>
+					<ion-icon class="small-icon" name="film-outline" />
+					<a sveltekit:prefetch href="/todos">Videos</a>
+				</li> -->
+				<li class:active={$page.url.pathname === '/dishonored'}>
+					<ion-icon class="small-icon" name="thumbs-down-outline" />
+
+					{#if matches}
+						<a on:click={toggleNavigation} sveltekit:prefetch href="/dishonored">The Dishonored</a>
+					{:else}
+						<a sveltekit:prefetch href="/dishonored">The Dishonored</a>
+					{/if}
+				</li>
+				<li class:active={$page.url.pathname === '/resources'}>
+					<ion-icon class="small-icon" name="bar-chart-outline" />
+					{#if matches}
+						<a on:click={toggleNavigation} sveltekit:prefetch href="/resources">Resources</a>
+					{:else}
+						<a sveltekit:prefetch href="/resources">Resources</a>
+					{/if}
+				</li>
+			</MediaQuery>
 		</ul>
 	</nav>
 {:else}
@@ -80,6 +110,7 @@
 		padding: 1em;
 		background-color: var(--tertiary-color);
 		animation: open-menu 0.3s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
+		z-index: 3;
 	}
 
 	@keyframes open-menu {
@@ -137,9 +168,10 @@
 		margin-top: 0.9rem;
 	}
 
-	nav .corner button {
+	nav.nav-open .corner button {
 		padding: 0.2rem;
 		margin: 0;
+		top: 3ch;
 	}
 
 	nav .corner button .small-icon {
@@ -148,7 +180,6 @@
 
 	nav.nav-closed {
 		transform: translate(0, 0);
-		position: absolute;
 		width: 20%;
 		height: 100%;
 		animation: close-menu 0.5s forwards cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -167,11 +198,14 @@
 		}
 	}
 
-	/*  nav span {
-	align-self: center;
-	font-size: 1.5rem;
-	letter-spacing: -0.02rem;
-	font-weight: bolder;
-	text-transform: capitalize;
-}*/
+	/* Medium screens */
+	@media all and (max-width: 800px) {
+		nav.nav-open {
+			justify-content: flex-start;
+			flex-direction: column;
+			flex: 0 0 auto;
+			width: 100vw;
+			max-width: calc(94vw * (9 / 9));
+		}
+	}
 </style>

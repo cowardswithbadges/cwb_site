@@ -3,7 +3,6 @@
 	export let date;
 	export let youtubeId = undefined;
 	export let categories;
-	export let svg = undefined;
 
 	function slugToTitle(slug) {
 		var words = slug.split('-');
@@ -43,6 +42,7 @@
 
 	{#if typeof youtubeId !== 'undefined'}
 		<iframe
+			title="Video Player"
 			id="ytplayer"
 			type="text/html"
 			width="100%"
@@ -76,15 +76,17 @@
 	}
 
 	.post-container ul {
-		display: inline-flex;
+		display: inline;
 		list-style-type: none;
 		margin: auto;
 		padding: 0;
 		flex: 1 0 auto;
+		width: 90%;
 	}
 
 	.post-container aside li {
 		padding: 0px 16px;
+		display: inline-flex;
 	}
 
 </style>
