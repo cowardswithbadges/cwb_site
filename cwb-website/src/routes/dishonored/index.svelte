@@ -1,9 +1,9 @@
 <script context="module">
 	import { prefetch, prefetchRoutes } from '$app/navigation';
-	prefetch('/dishonored');
-	prefetchRoutes();
+	//prefetch('/dishonored');
+	//prefetchRoutes();
 	export const load = async ({ fetch, url }) => {
-		const posts = await fetch('/api/dishonor.json');
+		const posts = await fetch('/cwb_production/api/dishonor.json');
 		const allPosts = await posts.json();
 
 		return {

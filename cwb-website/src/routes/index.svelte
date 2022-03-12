@@ -2,10 +2,10 @@
 	export const prerender = true;
 
 	export const load = async ({ fetch, url }) => {
-		const posts = await fetch('/api/posts.json');
+		const posts = await fetch('/cwb_production/api/posts.json');
 		const topResources = await posts.json();
 
-		const dishonored = await fetch('/api/dishonor.json');
+		const dishonored = await fetch('/cwb_production/api/dishonor.json');
 		const topDishonored = await dishonored.json();
 
 		return {

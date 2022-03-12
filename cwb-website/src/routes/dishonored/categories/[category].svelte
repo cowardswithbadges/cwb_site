@@ -1,6 +1,5 @@
 <script context="module">
 	export const load = async ({ params, fetch }) => {
-		console.log(params);
 		const currentCategory = params.category;
 		const response = await fetch('/api/dishonor.json');
 		const posts = await response.json();

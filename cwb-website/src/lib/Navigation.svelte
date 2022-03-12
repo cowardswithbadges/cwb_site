@@ -1,8 +1,10 @@
 <script>
 	import { page } from '$app/stores';
+	import { base } from '$app/paths';
 	import MediaQuery from '$lib/content/MediaQuery.svelte';
 	export let navOpened = true;
 	export let toggleNavigation;
+	
 </script>
 
 {#if navOpened}
@@ -17,18 +19,18 @@
 				<li class:active={$page.url.pathname === '/'}>
 					<ion-icon class="small-icon" name="home-outline" />
 					{#if matches}
-						<a on:click={toggleNavigation} sveltekit:prefetch href="/">Home</a>
+						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/">Home</a>
 					{:else}
-						<a sveltekit:prefetch href="/">Home</a>
+						<a sveltekit:prefetch href="{base}/">Home</a>
 					{/if}
 				</li>
 				<li class:active={$page.url.pathname === '/about'}>
 					<ion-icon class="small-icon" name="help-circle-outline" />
 
 					{#if matches}
-						<a on:click={toggleNavigation} sveltekit:prefetch href="/about">About</a>
+						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/about">About</a>
 					{:else}
-						<a sveltekit:prefetch href="/about">About</a>
+						<a sveltekit:prefetch href="{base}/about">About</a>
 					{/if}
 				</li>
 				<li class:active={$page.url.pathname === '/resources/categories/human-rights'}>
@@ -38,31 +40,31 @@
 						<a
 							on:click={toggleNavigation}
 							sveltekit:prefetch
-							href="/resources/categories/human-rights">Your Rights</a
+							href="{base}/resources/categories/human-rights">Your Rights</a
 						>
 					{:else}
-						<a sveltekit:prefetch href="/resources/categories/human-rights">Your Rights</a>
+						<a sveltekit:prefetch href="{base}/resources/categories/human-rights">Your Rights</a>
 					{/if}
 				</li>
 				<!--<li class:active={$page.url.pathname === '/todos'}>
 					<ion-icon class="small-icon" name="film-outline" />
-					<a sveltekit:prefetch href="/todos">Videos</a>
+					<a sveltekit:prefetch href="{base}/todos">Videos</a>
 				</li> -->
 				<li class:active={$page.url.pathname === '/dishonored'}>
 					<ion-icon class="small-icon" name="thumbs-down-outline" />
 
 					{#if matches}
-						<a on:click={toggleNavigation} sveltekit:prefetch href="/dishonored">The Dishonored</a>
+						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/dishonored">The Dishonored</a>
 					{:else}
-						<a sveltekit:prefetch href="/dishonored">The Dishonored</a>
+						<a sveltekit:prefetch href="{base}/dishonored/">The Dishonored</a>
 					{/if}
 				</li>
 				<li class:active={$page.url.pathname === '/resources'}>
 					<ion-icon class="small-icon" name="bar-chart-outline" />
 					{#if matches}
-						<a on:click={toggleNavigation} sveltekit:prefetch href="/resources">Resources</a>
+						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/resources">Resources</a>
 					{:else}
-						<a sveltekit:prefetch href="/resources">Resources</a>
+						<a sveltekit:prefetch href="{base}/resources/">Resources</a>
 					{/if}
 				</li>
 			</MediaQuery>
@@ -75,33 +77,6 @@
 				<ion-icon class="small-icon" name="close-circle-outline" />
 			</button>
 		</div>
-
-		<ul>
-			<li class:active={$page.url.pathname === '/'}>
-				<ion-icon class="small-icon" name="home-outline" />
-				<a sveltekit:prefetch href="/">Home</a>
-			</li>
-			<li class:active={$page.url.pathname === '/about'}>
-				<ion-icon class="small-icon" name="help-circle-outline" />
-				<a sveltekit:prefetch href="/about">About</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<ion-icon class="small-icon" name="ribbon-outline" />
-				<a sveltekit:prefetch href="/todos">Your Rights</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<ion-icon class="small-icon" name="film-outline" />
-				<a sveltekit:prefetch href="/todos">Videos</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<ion-icon class="small-icon" name="thumbs-down-outline" />
-				<a sveltekit:prefetch href="/todos">The Dishonored</a>
-			</li>
-			<li class:active={$page.url.pathname === '/todos'}>
-				<ion-icon class="small-icon" name="bar-chart-outline" />
-				<a sveltekit:prefetch href="/todos">Resources</a>
-			</li>
-		</ul>
 	</nav>
 {/if}
 

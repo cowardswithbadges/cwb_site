@@ -15,7 +15,7 @@
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>Say Their Names</title>
 </svelte:head>
 
 <div class="content">
@@ -88,7 +88,8 @@
 		government officials such as commissioners and mayors, will use their badge and authority to
 		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
 		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
-		rape, sexual assault on children, human trafficking, and murder. They are <a href="/">Cowards with Badges</a
+		rape, sexual assault on children, human trafficking, and murder. They are <a href="/"
+			>Cowards with Badges</a
 		>. We will expose, educate, and document these cowards and break their immunity bubble safe
 		haven.
 	</p>
@@ -100,3 +101,7 @@
 		> - there is nothing "alleged" about that - the officer choked another officer.
 	</p>
 </div>
+
+<style>
+
+</style>

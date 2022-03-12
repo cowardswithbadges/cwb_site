@@ -37,8 +37,8 @@
 	/>
 
 	<h4 id="social-media">
-		<a aria-hidden="true" tabindex="-1" href="#social-media" />
-		<span class="icon icon-link" />social media platforms
+		<a aria-hidden="true" tabindex="-1" href="#social-media">
+		<span class="icon icon-link" /></a>social media platforms
 	</h4>
 	<nav class="social-media-contacts">
 		<a href="https://www.tiktok.com/@cowardswithbadges" target="_blank">tiktok</a>

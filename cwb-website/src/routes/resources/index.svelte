@@ -1,9 +1,9 @@
 <script context="module">
 	import { prefetch, prefetchRoutes } from '$app/navigation';
-	prefetch('/resources');
-	prefetchRoutes();
+	//prefetch('/resources/');
+	//prefetchRoutes();
 	export const load = async ({ fetch, url }) => {
-		const posts = await fetch('/api/posts.json');
+		const posts = await fetch('/cwb_production/api/posts.json');
 		const allPosts = await posts.json();
 
 		return {

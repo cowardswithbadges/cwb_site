@@ -1,8 +1,7 @@
 <script context="module">
 	export const load = async ({ params, fetch }) => {
-		console.log(params);
 		const currentCategory = params.category;
-		const response = await fetch('/api/posts.json');
+		const response = await fetch('/cwb_production/api/posts.json');
 		const posts = await response.json();
 
 		const matchingPosts = posts.filter((post) => post.meta.categories.includes(currentCategory));

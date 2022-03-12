@@ -29,7 +29,7 @@
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="chatbubbles-sharp" /> speak up</h6>
 					<a href="/resources/all-amendments-from-constitution">the united states constitution</a>
-					<a href="#" on:click={getDiscordLink}>discussions on our discord server</a>
+					<a href={'#'} on:click={getDiscordLink}>discussions on our discord server</a>
 					<a href="https://www.tiktok.com/@cowardswithbadges" target="_blank">tiktok</a>
 					<a href="https://www.youtube.com/channel/UCtYS0uK53GyT17r2DdB6spw" target="_blank"
 						>youtube</a
@@ -60,11 +60,11 @@
 				</div>
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="library-outline" /> educate</h6>
-					<a href="/about" aria-current="page">about our cause</a>
-					<a href="/resources/categories/human-rights" aria-current="page">your rights</a>
-					<a href="/dishonored" aria-current="page">Dishonored Cowards</a>
-					<a href="/resources" aria-current="page">resources for everyone</a>
-					<a href="/contact" aria-current="page">contact us</a>
+					<a sveltekit:prefetch href="/about" aria-current="page">about our cause</a>
+					<a sveltekit:prefetch href="/resources/categories/human-rights" aria-current="page">your rights</a>
+					<a sveltekit:prefetch href="/dishonored" aria-current="page">Dishonored Cowards</a>
+					<a sveltekit:prefetch href="/resources" aria-current="page">resources for everyone</a>
+					<a sveltekit:prefetch href="/contact" aria-current="page">contact us</a>
 				</div>
 			</div>
 		</div>
@@ -132,11 +132,6 @@
 
 	footer .legal {
 		text-align: center;
-	}
-	footer .legal .heart-icon {
-		vertical-align: middle;
-		font-size: 1.7rem;
-		fill: var(--accent-color);
 	}
 
 	.footer-container {
@@ -211,10 +206,6 @@
 
 		footer .legal a {
 			font-size: 0.9rem;
-		}
-
-		footer .legal .heart-icon {
-			font-size: 1.7rem;
 		}
 
 		.footer-heading-icon {

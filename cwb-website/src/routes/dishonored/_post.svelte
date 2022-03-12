@@ -3,7 +3,6 @@
 	export let date;
 	export let youtubeId = undefined;
 	export let categories;
-	export let svg = undefined;
 
 	function slugToTitle(slug) {
 		var words = slug.split('-');
@@ -32,7 +31,7 @@
 			<ul>
 				{#each categories as category}
 					<li>
-						<a href="/dishonored/categories/{category}">
+						<a sveltekit:prefetch href="/dishonored/categories/{category}">
 							{slugToTitle(category)}
 						</a>
 					</li>
