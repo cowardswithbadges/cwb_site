@@ -4,7 +4,7 @@
 	import Header from '$lib/header/Header.svelte';
 	import Navigation from '$lib/Navigation.svelte';
 	import '../app.css';
-	export let navOpened = true;
+	export let navOpened = false;
 
 	$: isNavOpen = navOpened;
 

@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	export let title;
 	export let date;
 	export let youtubeId = undefined;
@@ -31,7 +32,7 @@
 			<ul>
 				{#each categories as category}
 					<li>
-						<a sveltekit:prefetch href="/dishonored/categories/{category}">
+						<a sveltekit:prefetch href="{base}/dishonored/categories/{category}">
 							{slugToTitle(category)}
 						</a>
 					</li>

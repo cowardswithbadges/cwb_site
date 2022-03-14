@@ -245,8 +245,8 @@ managing the flow of people in and out of their custody."
 
 <style>
   .chart{
-    max-width: 60%;
-    min-width: 40%;
+    max-width: 100vw;
+    min-width: 50vw;
     margin: 0 auto;
   }
   </style>

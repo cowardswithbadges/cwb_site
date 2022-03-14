@@ -17,7 +17,7 @@
 				backgroundColor: ['rgba(255, 195, 0, 0.4)'],
 				borderWidth: 2,
 				borderColor: ['rgba(255, 195, 0, 1)']
-			},
+			}
 		]
 	};
 
@@ -69,8 +69,8 @@
 
 <style>
 	.chart {
-		max-width: 90%;
-		min-width: 50%;
+		max-width: 100vw;
+		min-width: 50vw;
 		margin: 0 auto;
 	}
 </style>

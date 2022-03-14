@@ -1,11 +1,12 @@
 <script context="module">
+	import { base } from '$app/paths'
 	export const prerender = true;
 
 	export const load = async ({ fetch, url }) => {
-		const posts = await fetch('/cwb_production/api/posts.json');
+		const posts = await fetch(`${base}/api/posts.json`);
 		const topResources = await posts.json();
 
-		const dishonored = await fetch('/cwb_production/api/dishonor.json');
+		const dishonored = await fetch(`${base}/api/dishonor.json`);
 		const topDishonored = await dishonored.json();
 
 		return {
@@ -18,6 +19,7 @@
 </script>
 
 <script>
+	
 	import { goto } from '$app/navigation';
 	import Grid from '$lib/content/Grid.svelte';
 	import { svgComponentsMapper } from '$lib/svg/svgMapper.js';
@@ -37,7 +39,7 @@
 
 			<button
 				on:click={() => {
-					goto(`/about`);
+					goto(`${base}/about`);
 				}}
 			>
 				<ion-icon class="icon" name="arrow-forward-circle-outline" />
@@ -51,7 +53,7 @@
 	<section>
 		<button
 			on:click={() => {
-				goto(`/resources`);
+				goto(`${base}/resources`);
 			}}
 		>
 			<ion-icon class="icon" name="arrow-forward-circle-outline" />
@@ -65,7 +67,7 @@
 	<section>
 		<button
 			on:click={() => {
-				goto(`/dishonored`);
+				goto(`${base}/dishonored`);
 			}}
 		>
 			<ion-icon class="icon" name="arrow-forward-circle-outline" />

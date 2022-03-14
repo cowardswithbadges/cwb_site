@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Logo from '../Logo.svelte';
 	import { goto } from '$app/navigation';
 
@@ -19,7 +20,7 @@
 				</div>
 				<p class="legal">&copy; Copyright 2022 Cowards with Badges. All rights reserved.</p>
 				<p class="legal">
-					In memory of all civilians murdered by police, <a href="/say-their-names"
+					In memory of all civilians murdered by police, <a href="{base}/say-their-names"
 						>say their names</a
 					> 🖤
 				</p>
@@ -28,7 +29,9 @@
 			<div class="footer-routes">
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="chatbubbles-sharp" /> speak up</h6>
-					<a href="/resources/all-amendments-from-constitution">the united states constitution</a>
+					<a href="{base}/resources/all-amendments-from-constitution"
+						>the united states constitution</a
+					>
 					<a href={'#'} on:click={getDiscordLink}>discussions on our discord server</a>
 					<a href="https://www.tiktok.com/@cowardswithbadges" target="_blank">tiktok</a>
 					<a href="https://www.youtube.com/channel/UCtYS0uK53GyT17r2DdB6spw" target="_blank"
@@ -40,35 +43,52 @@
 				</div>
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="trophy-outline" /> accountability</h6>
-					<a href="/resources/defunding-police" aria-current="page"
+					<a href="{base}/resources/defunding-police" aria-current="page"
 						>what does defunding mean for police?</a
 					>
-					<a href="/resources/racism-in-policing" aria-current="page">racism in policing</a>
-					<a href="/resources/officers-donot-have-to-know-law" aria-current="page"
+					<a href="{base}/resources/racism-in-policing" aria-current="page">racism in policing</a>
+					<a href="{base}/resources/officers-donot-have-to-know-law" aria-current="page"
 						>officers not knowing the law</a
 					>
-					<a href="/resources/what-does-acab-mean" aria-current="page">what does ACAB mean?</a>
-					<a href="/resources/what-does-thin-blue-line-mean" aria-current="page"
+					<a href="{base}/resources/what-does-acab-mean" aria-current="page">what does ACAB mean?</a
+					>
+					<a href="{base}/resources/what-does-thin-blue-line-mean" aria-current="page"
 						>What does thin blue line mean?</a
 					>
-					<a href="/resources/want-to-stop-being-racist" aria-current="page"
+					<a href="{base}/resources/want-to-stop-being-racist" aria-current="page"
 						>want to stop being racist?</a
 					>
-					<!--<a href="/about" aria-current="page">support the LGBTQA+ community</a>
+					<!--<a href="{base}/about" aria-current="page">support the LGBTQA+ community</a>
 					
-					<a href="/about" aria-current="page">want to stop being homo/transphobic?</a>-->
+					<a href="{base}/about" aria-current="page">want to stop being homo/transphobic?</a>-->
 				</div>
 				<div class="footer-category">
 					<h6><ion-icon class="footer-heading-icon" name="library-outline" /> educate</h6>
-					<a sveltekit:prefetch href="/about" aria-current="page">about our cause</a>
-					<a sveltekit:prefetch href="/resources/categories/human-rights" aria-current="page">your rights</a>
-					<a sveltekit:prefetch href="/dishonored" aria-current="page">Dishonored Cowards</a>
-					<a sveltekit:prefetch href="/resources" aria-current="page">resources for everyone</a>
-					<a sveltekit:prefetch href="/contact" aria-current="page">contact us</a>
+					<a sveltekit:prefetch href="{base}/about" aria-current="page">about our cause</a>
+					<a sveltekit:prefetch href="{base}/resources/categories/human-rights" aria-current="page"
+						>your rights</a
+					>
+					<a sveltekit:prefetch href="{base}/dishonored" aria-current="page">Dishonored Cowards</a>
+					<a sveltekit:prefetch href="{base}/resources" aria-current="page"
+						>resources for everyone</a
+					>
+					<a sveltekit:prefetch href="{base}/contact" aria-current="page">contact us</a>
 				</div>
 			</div>
 		</div>
 	</div>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-3PY9JDSRB5"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'G-3PY9JDSRB5');
+	</script>
 </footer>
 
 <style>

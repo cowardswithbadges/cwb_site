@@ -2,7 +2,7 @@
 	import { page } from '$app/stores';
 	import { base } from '$app/paths';
 	import MediaQuery from '$lib/content/MediaQuery.svelte';
-	export let navOpened = true;
+	export let navOpened = false;
 	export let toggleNavigation;
 	
 </script>
@@ -16,7 +16,7 @@
 				</button>
 			</div>
 			<MediaQuery query="(max-width: 800px)" let:matches>
-				<li class:active={$page.url.pathname === '/'}>
+				<li class:active={$page.url.pathname === `${base}/`}>
 					<ion-icon class="small-icon" name="home-outline" />
 					{#if matches}
 						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/">Home</a>
@@ -24,7 +24,7 @@
 						<a sveltekit:prefetch href="{base}/">Home</a>
 					{/if}
 				</li>
-				<li class:active={$page.url.pathname === '/about'}>
+				<li class:active={$page.url.pathname === `${base}/about`}>
 					<ion-icon class="small-icon" name="help-circle-outline" />
 
 					{#if matches}
@@ -33,7 +33,7 @@
 						<a sveltekit:prefetch href="{base}/about">About</a>
 					{/if}
 				</li>
-				<li class:active={$page.url.pathname === '/resources/categories/human-rights'}>
+				<li class:active={$page.url.pathname === `${base}/resources/categories/human-rights`}>
 					<ion-icon class="small-icon" name="ribbon-outline" />
 
 					{#if matches}
@@ -50,7 +50,7 @@
 					<ion-icon class="small-icon" name="film-outline" />
 					<a sveltekit:prefetch href="{base}/todos">Videos</a>
 				</li> -->
-				<li class:active={$page.url.pathname === '/dishonored'}>
+				<li class:active={$page.url.pathname === `${base}/dishonored`}>
 					<ion-icon class="small-icon" name="thumbs-down-outline" />
 
 					{#if matches}
@@ -59,7 +59,7 @@
 						<a sveltekit:prefetch href="{base}/dishonored/">The Dishonored</a>
 					{/if}
 				</li>
-				<li class:active={$page.url.pathname === '/resources'}>
+				<li class:active={$page.url.pathname === `${base}/resources`}>
 					<ion-icon class="small-icon" name="bar-chart-outline" />
 					{#if matches}
 						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/resources">Resources</a>

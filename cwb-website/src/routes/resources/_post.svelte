@@ -3,7 +3,8 @@
 	export let date;
 	export let youtubeId = undefined;
 	export let categories;
-
+	import { base } from '$app/paths';
+	
 	function slugToTitle(slug) {
 		var words = slug.split('-');
 
@@ -31,7 +32,7 @@
 			<ul>
 				{#each categories as category}
 					<li>
-						<a href="/resources/categories/{category}">
+						<a href="{base}/resources/categories/{category}">
 							{slugToTitle(category)}
 						</a>
 					</li>

@@ -69,8 +69,8 @@
 
 <style>
 	.chart {
-		max-width: 90%;
-		min-width: 50%;
+		max-width: 100vw;
+		min-width: 50vw;
 		margin: 0 auto;
 	}
 </style>

@@ -1,7 +1,8 @@
 <script context="module">
+	import { base } from '$app/paths'
 	export const load = async ({ params, fetch }) => {
 		const currentCategory = params.category;
-		const response = await fetch('/api/dishonor.json');
+		const response = await fetch(`${base}/api/dishonor.json`);
 		const posts = await response.json();
 
 		const matchingPosts = posts.filter((post) => post.meta.categories.includes(currentCategory));

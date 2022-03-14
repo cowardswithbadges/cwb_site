@@ -16,7 +16,7 @@ const config = {
 			precompress: false
 		}),
 		paths: {
-			base: dev ? '' : '/cwb_production',
+			base: dev ? '' : '',
 		},
 		
 		appDir: 'internal',

@@ -1,5 +1,6 @@
 <script>
     export let posts;
+	import { base } from '$app/paths';
 	import { goto } from '$app/navigation';
     import { svgComponentsMapper } from '$lib/svg/svgMapper.js';
 </script>
@@ -7,13 +8,13 @@
 <ul>
 	{#each posts as post}
 		<li on:click={() => {
-			goto(post.path);
+			goto(base + post.path);
 		}}>
 			{#if typeof post.meta.svg !== 'undefined'}
 				<span><svelte:component this={svgComponentsMapper[post.meta.svg]} /></span>
 			{/if}
 			<h3>
-				<a href={post.path}>
+				<a href={base}{post.path}>
 					{post.meta.title}
 				</a>
 			</h3>
@@ -44,7 +45,6 @@
 
 	li span {
 		justify-content: space-evenly;
-		display: flex;
 	}
 
 	.publish-date {

@@ -1,7 +1,8 @@
 <script context="module">
+	import { base } from '$app/paths'
 	export const load = async ({ params, fetch }) => {
 		const currentCategory = params.category;
-		const response = await fetch('/cwb_production/api/posts.json');
+		const response = await fetch(`${base}/api/posts.json`);
 		const posts = await response.json();
 
 		const matchingPosts = posts.filter((post) => post.meta.categories.includes(currentCategory));

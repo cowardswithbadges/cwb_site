@@ -2,7 +2,26 @@
 	import Line from 'svelte-chartjs/src/Line.svelte';
 
 	let data = {
-		labels: ['1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016'],
+		labels: [
+			'1999',
+			'2000',
+			'2001',
+			'2002',
+			'2003',
+			'2004',
+			'2005',
+			'2006',
+			'2007',
+			'2008',
+			'2009',
+			'2010',
+			'2011',
+			'2012',
+			'2013',
+			'2014',
+			'2015',
+			'2016'
+		],
 		datasets: [
 			{
 				label: 'Black',
@@ -17,8 +36,7 @@
 				backgroundColor: ['rgba(255, 195, 0, 0.4)'],
 				borderWidth: 2,
 				borderColor: ['rgba(255, 195, 0, 1)']
-			},
-            
+			}
 		]
 	};
 
@@ -70,8 +88,8 @@
 
 <style>
 	.chart {
-		max-width: 90%;
-		min-width: 50%;
+		max-width: 100vw;
+		min-width: 50vw;
 		margin: 0 auto;
 	}
 </style>

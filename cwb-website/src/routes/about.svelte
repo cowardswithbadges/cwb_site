@@ -1,4 +1,5 @@
 <script context="module">
+	import { base } from '$app/paths';
 	import { browser, dev } from '$app/env';
 
 	// we don't need any JS on this page, though we'll load
@@ -58,13 +59,13 @@
 
 	<p>
 		Police Officers have demonstrated time and time again that they are under-trained and
-		over-armed. These officers <a href="/resources/officers-donot-have-to-know-law">do not know the laws</a> they are enforcing. <a href="/resources/defunding-police">
+		over-armed. These officers <a href="{base}/resources/officers-donot-have-to-know-law">do not know the laws</a> they are enforcing. <a href="{base}/resources/defunding-police">
 		Deallocating funds that militarize law enforcement</a> need to be put to use into a fund that supports an individual's
 		education, employment, mental health, and family support. Police Officers can often be observed
 		on a daily basis looking for petty crimes, for example: a broken tail light, jay-walking,
 		running a stop sign, disorderly conduct, victimless crimes such as a person in possession of
 		marijuana. Law enforcement officers use these crimes as a way to look or fish for more
-		infractions. Police Officers lie, make up laws, and <a href="/resources/categories/human-rights">violate our rights</a> every day.
+		infractions. Police Officers lie, make up laws, and <a href="{base}/resources/categories/human-rights">violate our rights</a> every day.
 	</p>
 
 	<p>
@@ -88,7 +89,7 @@
 		government officials such as commissioners and mayors, will use their badge and authority to
 		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
 		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
-		rape, sexual assault on children, human trafficking, and murder. They are <a href="/">Cowards with Badges</a
+		rape, sexual assault on children, human trafficking, and murder. They are <a href="{base}/">Cowards with Badges</a
 		>. We will expose, educate, and document these cowards and break their immunity bubble safe
 		haven.
 	</p>
@@ -96,7 +97,7 @@
 	<p>
 		Everyone is welcome to read, share, use, and educate others with all of our content. Our agenda
 		is to educate without any sugar coating. For example, we do not use terms that the media uses
-		such as "allegedly", "reportedly", "presumably"... if a police officer is on video <a sveltekit:prefetch href="/dishonored/christopher-pullease">choking a female police officer</a
+		such as "allegedly", "reportedly", "presumably"... if a police officer is on video <a sveltekit:prefetch href="{base}/dishonored/christopher-pullease">choking a female police officer</a
 		> - there is nothing "alleged" about that - the officer choked another officer.
 	</p>
 </div>
