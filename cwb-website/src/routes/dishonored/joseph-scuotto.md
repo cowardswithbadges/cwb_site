@@ -97,6 +97,7 @@ Douglas later said:
 The meeting was put into recess.
 
 #### Residents of the City of Sunrise are represented by: 
+
 * Mayor Michael J. Ryan — E-mail: mryan@sunrisefl.gov
 
 * Deputy Mayor Jacqueline A. Guzman — E-mail: jguzman@sunrisefl.gov

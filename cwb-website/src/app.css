@@ -63,12 +63,12 @@ h2
 }
 
 p {
-	font-weight: 800;
+	font-weight: 300;
     color: var(--text-color);
     line-height: 30px;
     font-family: 'Alegreya', Serif;
     font-size: 1.40rem;
-	text-shadow: 0.5px 0.9px 0.1px rgb(0 0 0 / 50%);
+	text-shadow: -1px -1px #666, 1px 1px rgba(0, 0, 0, 0.68);
 }
 
 a {
@@ -256,11 +256,11 @@ blockquote ul{
 	}
 
 	p{
-		font-weight: 800;
+		font-weight: 300;
 		color: var(--text-color);
 		font-family: 'Alegreya', Serif;
 		font-size: 1.3rem;
-		text-shadow: 0.5px 0.9px 0.1px rgb(0 0 0 / 50%);
+		text-shadow: -1px -1px #666, 1px 1px rgba(0, 0, 0, 0.68);
 		text-align: center;
 		padding: 0.5rem 0;
 		margin: 0.3rem 0;

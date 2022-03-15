@@ -53,6 +53,7 @@
 		padding: 0;
 		margin: 0;
         text-align: center;
+		text-shadow: none;
 	}
 
 	h3 {
