@@ -124,5 +124,6 @@ Biles cited mental health issues that triggered the twisties, a disorientation i
   <style>
     h3{
       text-align: center;
+      line-height: 1.8rem;
     }
   </style>

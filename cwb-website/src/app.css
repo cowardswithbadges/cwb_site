@@ -38,6 +38,11 @@ body {
 	width: 100%;
 }
 
+article ul, article ol{
+	margin: 0;
+    padding: 0 1.7rem;
+}
+
 main{
 	padding: 2rem;
 }
@@ -45,12 +50,6 @@ main{
 .content {
 	display: flex;
 	flex-direction: column;
-}
-
-.content>article {
-	flex: 4;
-	min-height: 60vh;
-	padding: 2rem;
 }
 
 h1,
@@ -87,6 +86,19 @@ h1 {
 
 h2 {
 	font-size: 1rem;
+}
+
+
+hr{
+
+	height: 9px;
+	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDMuMiAyNC42MDYyIj48ZyBwYWludC1vcmRlcj0ibWFya2VycyBmaWxsIHN0cm9rZSI+PHBhdGggZmlsbD0iIzcwZGE1ZSIgZmlsbC1vcGFjaXR5PSIuNjI1NyIgZD0ibTMuNDEzNSAxMC42MDgzLTEuNjU0IDQuMzEzOWM5LjI4MzIgMy41NTk0IDIyLjEzNCA3LjI3MTcgMzcuODA5NiA4LjgxNjIgMTUuNzA2MyAxLjU0NzUgMzMuNTAyOC44MjgzIDUxLjkyNC0zLjc4ODEgOS45NzI2LTIuNTk5MSAxOS4yODM0LTYuMDg0MSAyOS4yMzYxLTkuMjU4OCA5Ljg0MTQtMy4xMzkxIDE5LjMzNTQtNS42MjY0IDI5LjExNzUtNi4yMTIzIDEwLjIwNzktLjYyNTcgMTkuODgzNi45ODY1IDI4LjMwMzUgMy44MzcyIDExLjI4MzQgMy44MjAyIDE5LjU3ODggOS41NzQzIDI0Ljk0NyAxNC40MjExLTUuMzUxMy00LjgzMTUtMTMuNDA5OC0xMC45MTM4LTI0LjU5OTEtMTUuMzY2LTguMzQ5LTMuMzIyMS0xOC4xMzIzLTUuNTg4NC0yOC43My01LjYxMi0xMC4xNzctLjAwOTUtMjAuMTEwMyAxLjkzMzctMzAuMzAyIDQuNDg4LTEwLjUyNTcgMi42Mzc5LTE5LjQ5IDUuMzkzNC0yOS40MjkgNy4zNDgtMTcuNzc5OCAzLjY3ODEtMzQuNzEzMiAzLjY4NDUtNDkuNTA3NyAxLjc0NDctMTQuNzY1My0xLjkzNi0yNi43NTc3LTUuNzA4NC0zNS40NjE4LTkuMDQ1OGwtMS42NTQgNC4zMTR6Ii8+PHBhdGggZmlsbD0iI2M3ZjQ2NCIgc3Ryb2tlPSIjOTZkNTBmIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9Ii4zNDQiIGQ9Ik0xLjgyNiA5LjAyMDguMTcyIDEzLjMzNDdjOS4yODMyIDMuNTU5NCAyMi4xMzQgNy4yNzE3IDM3LjgwOTYgOC44MTYyIDE1LjcwNjMgMS41NDc1IDMzLjUwMjguODI4MyA1MS45MjQtMy43ODgxIDkuOTcyNi0yLjU5OTEgMTkuMjgzNC02LjA4NDEgMjkuMjM2MS05LjI1ODggOS44NDE0LTMuMTM5MSAxOS4zMzU0LTUuNjI2NCAyOS4xMTc1LTYuMjEyMyAxMC4yMDc5LS42MjU3IDE5Ljg4MzYuOTg2NSAyOC4zMDM1IDMuODM3MiAxMS4yODM0IDMuODIwMiAxOS41Nzg3IDkuNTc0MyAyNC45NDcgMTQuNDIxLTUuMzUxMy00LjgzMTQtMTMuNDA5OC0xMC45MTM3LTI0LjU5OTEtMTUuMzY2LTguMzQ5LTMuMzIyLTE4LjEzMjMtNS41ODgzLTI4LjczLTUuNjExOS0xMC4xNzctLjAwOTUtMjAuMTEwMyAxLjkzMzctMzAuMzAyIDQuNDg4LTEwLjUyNTcgMi42Mzc5LTE5LjQ5IDUuMzkzNC0yOS40MjkgNy4zNDgtMTcuNzc5OCAzLjY3ODEtMzQuNzEzMiAzLjY4NDUtNDkuNTA3NyAxLjc0NDctMTQuNzY1My0xLjkzNi0yNi43NTc3LTUuNzA4NC0zNS40NjE4LTkuMDQ1OGwtMS42NTQgNC4zMTR6Ii8+PC9nPjwvc3ZnPg==") no-repeat;
+	border: 0;
+    min-width: 20%;
+    margin-left: 38%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 1rem 0 1.3rem 0;
 }
 
 pre {
@@ -195,33 +207,125 @@ ion-icon {
 	font-size: 1.5rem;
 }
 
-blockquote ul{
-	list-style-type : none;
+blockquote{
+	margin: 1rem 0;
+    padding: 0;
 }
 
-@media (max-width: 800px) {
+blockquote ul{
+	list-style-type : none;
+	margin: 1rem 0;
+    padding: 0;
+}
+
+@media all and (max-width: 1200px) {
+	hr{
+		margin-left: 38%;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+}
+
+@media all and (max-width: 800px) {
+
+	main{
+		padding: 2rem 0.9rem;
+
+	}
 	h1 {
-		font-size: 2.4rem;
+		font-size: 2rem;
+		text-align: center;
+		padding: 0.7rem 1rem;
+		margin: 0 0.1rem;
+		min-width: 3ch;
+		line-height: 1.9rem;
+	}
+
+	h4{
+		font-size: 1.7rem;
+		color: var(--primary-color);
+		padding: 0 0.4rem;
+		margin: 1rem 0;
+		text-align: center;
+		line-height: 1.9rem;
 	}
 
 	hr{
-		padding: 1rem 0;
-		margin-left: 8%;
-		margin-top: 5%;
-		margin-bottom: 1%;
+		margin-left: 27%;
+	}
+
+	p{
+		font-weight: 800;
+		color: var(--text-color);
+		font-family: 'Alegreya', Serif;
+		font-size: 1.3rem;
+		text-shadow: 0.5px 0.9px 0.1px rgb(0 0 0 / 50%);
+		text-align: center;
+		padding: 0.5rem 0;
+		margin: 0.3rem 0;
+		line-height: 1.7rem;
+	}
+
+	blockquote{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		justify-content: center;
+	}
+
+	ul {
+		margin: 0;
+		padding: 0;
+	}
+
+	ul ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	blockquote ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	blockquote li{
+		text-align: center;
+		line-height: 1.7999rem;
+	}
+
+	.post-container li p{
+		text-align: left;
 	}
 }
 
-hr{
 
-	height: 53px;
-	background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDMuMiAyNC42MDYyIj48ZyBwYWludC1vcmRlcj0ibWFya2VycyBmaWxsIHN0cm9rZSI+PHBhdGggZmlsbD0iIzcwZGE1ZSIgZmlsbC1vcGFjaXR5PSIuNjI1NyIgZD0ibTMuNDEzNSAxMC42MDgzLTEuNjU0IDQuMzEzOWM5LjI4MzIgMy41NTk0IDIyLjEzNCA3LjI3MTcgMzcuODA5NiA4LjgxNjIgMTUuNzA2MyAxLjU0NzUgMzMuNTAyOC44MjgzIDUxLjkyNC0zLjc4ODEgOS45NzI2LTIuNTk5MSAxOS4yODM0LTYuMDg0MSAyOS4yMzYxLTkuMjU4OCA5Ljg0MTQtMy4xMzkxIDE5LjMzNTQtNS42MjY0IDI5LjExNzUtNi4yMTIzIDEwLjIwNzktLjYyNTcgMTkuODgzNi45ODY1IDI4LjMwMzUgMy44MzcyIDExLjI4MzQgMy44MjAyIDE5LjU3ODggOS41NzQzIDI0Ljk0NyAxNC40MjExLTUuMzUxMy00LjgzMTUtMTMuNDA5OC0xMC45MTM4LTI0LjU5OTEtMTUuMzY2LTguMzQ5LTMuMzIyMS0xOC4xMzIzLTUuNTg4NC0yOC43My01LjYxMi0xMC4xNzctLjAwOTUtMjAuMTEwMyAxLjkzMzctMzAuMzAyIDQuNDg4LTEwLjUyNTcgMi42Mzc5LTE5LjQ5IDUuMzkzNC0yOS40MjkgNy4zNDgtMTcuNzc5OCAzLjY3ODEtMzQuNzEzMiAzLjY4NDUtNDkuNTA3NyAxLjc0NDctMTQuNzY1My0xLjkzNi0yNi43NTc3LTUuNzA4NC0zNS40NjE4LTkuMDQ1OGwtMS42NTQgNC4zMTR6Ii8+PHBhdGggZmlsbD0iI2M3ZjQ2NCIgc3Ryb2tlPSIjOTZkNTBmIiBzdHJva2UtbGluZWpvaW49InJvdW5kIiBzdHJva2Utd2lkdGg9Ii4zNDQiIGQ9Ik0xLjgyNiA5LjAyMDguMTcyIDEzLjMzNDdjOS4yODMyIDMuNTU5NCAyMi4xMzQgNy4yNzE3IDM3LjgwOTYgOC44MTYyIDE1LjcwNjMgMS41NDc1IDMzLjUwMjguODI4MyA1MS45MjQtMy43ODgxIDkuOTcyNi0yLjU5OTEgMTkuMjgzNC02LjA4NDEgMjkuMjM2MS05LjI1ODggOS44NDE0LTMuMTM5MSAxOS4zMzU0LTUuNjI2NCAyOS4xMTc1LTYuMjEyMyAxMC4yMDc5LS42MjU3IDE5Ljg4MzYuOTg2NSAyOC4zMDM1IDMuODM3MiAxMS4yODM0IDMuODIwMiAxOS41Nzg3IDkuNTc0MyAyNC45NDcgMTQuNDIxLTUuMzUxMy00LjgzMTQtMTMuNDA5OC0xMC45MTM3LTI0LjU5OTEtMTUuMzY2LTguMzQ5LTMuMzIyLTE4LjEzMjMtNS41ODgzLTI4LjczLTUuNjExOS0xMC4xNzctLjAwOTUtMjAuMTEwMyAxLjkzMzctMzAuMzAyIDQuNDg4LTEwLjUyNTcgMi42Mzc5LTE5LjQ5IDUuMzkzNC0yOS40MjkgNy4zNDgtMTcuNzc5OCAzLjY3ODEtMzQuNzEzMiAzLjY4NDUtNDkuNTA3NyAxLjc0NDctMTQuNzY1My0xLjkzNi0yNi43NTc3LTUuNzA4NC0zNS40NjE4LTkuMDQ1OGwtMS42NTQgNC4zMTR6Ii8+PC9nPjwvc3ZnPg==") no-repeat;
-	border: 0;
-	min-width: 20%;
-    padding: 2rem 0;
-    margin-left: 25%;
-    margin-top: 5%;
-    margin-bottom: 4%;
+
+@media all and (min-width: 900px) and (max-width: 1200px) {
+	hr{
+		margin-left: 35%;
+	}
+
 }
+
+@media all and (max-width: 700px) {
+	hr{
+		margin-left: 23%;
+	}
+
+}
+
+@media all and (max-width: 500px) {
+	hr{
+		margin-left: 1rem;
+	}
+
+	article ul, article ol{
+		margin: 0;
+		padding: 0;
+	}
+
+}
+
 
 

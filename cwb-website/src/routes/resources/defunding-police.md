@@ -108,18 +108,28 @@ The basic principle is that government budgets and "public safety" spending shou
 
 One of the most deceptive critiques of defunding police is instigating defund means to abolish. Opposers of defunding claim that it undermines public wellbeing through its endeavors to end policing. Reality check: Defunding looks to demilitarize police divisions and redistribute funding to trained mental health professionals and social specialists to lessen unnecessary violent experiences among police and citizens. No less than 13 urban areas in the United States have as of now occupied with strategy projects to defund the police.
 
-Completely defunding police budgets will not, on its own, create the resources necessary to build and restore communities. But it would shift the balance away from the decades of orientation on law and order toward treatment and care. The abolition of policing may seem farfetched to some, but, in effect, the racism engrained in law enforcement has already been baked. We cannot go back now and decide to take out this or that thing. The whole cake has to be discarded, starting with its most vile ingredient:  the presumption of Black criminality and guilt. The reimagining of a just society has inevitably come into conflict with the racist barbarism of American police.  It's time for a fresh start.
+---
+
+Completely defunding police budgets will not, on its own, create the resources necessary to build and restore communities. But it would shift the balance away from the decades of orientation on law and order toward treatment and care. The abolition of policing may seem farfetched to some, but, in effect, the racism engrained in law enforcement has already been baked. 
+
+We cannot go back now and decide to take out this or that thing. The whole cake has to be discarded, starting with its most vile ingredient:  the presumption of Black criminality and guilt. The reimagining of a just society has inevitably come into conflict with the racist barbarism of American police.  It's time for a fresh start.
 
 
 #### Does Defunding Lead to Disorder?
 
 Abolition groups argue that policing and prison are at their core racist and harmful and make communities less safe. They also point out that the vast majority of police work has nothing to do with responding to or preventing violence, and that police have a terrible track record of solving murders or handling rape and domestic violence.
 
-There are studies suggesting that less policing could mean less crime. In 2014 and 2015, New York police officers staged a "slowdown" to protest the mayor, arguing that if they did less police work, the city would be less safe. But the opposite turned out to be true. When the officers took a break from "broken windows policing", meaning targeting low-level offenses such as defective lights on vehicles, jaywalking, vandalism, loitering, public drinking, and fare evasion - there was a drop in crime. Researchers argued that aggressive policing on the streets for petty offenses can ultimately cause social disruption and lead to more crime. Policing that punishes poverty, such as hefty traffic tickets and debts, can also create conditions where crime is more likely. When New York ended "stop and frisk", crime did not rise.
+There are studies suggesting that less policing could mean less crime. In 2014 and 2015, New York police officers staged a "slowdown" to protest the mayor, arguing that if they did less police work, the city would be less safe. But the opposite turned out to be true. When the officers took a break from "broken windows policing", meaning targeting low-level offenses such as defective lights on vehicles, jaywalking, vandalism, loitering, public drinking, and fare evasion - there was a drop in crime. 
+
+---
+
+Researchers argued that aggressive policing on the streets for petty offenses can ultimately cause social disruption and lead to more crime. Policing that punishes poverty, such as hefty traffic tickets and debts, can also create conditions where crime is more likely. When New York ended "stop and frisk", crime did not rise.
 
 #### Unbundle the Police
 
 The role of the police officer spans a wide range of overlapping services.  In the end, the role of a law enforement officer becomes "Jack of all trades, master of none".  Most white male cops choose to specialize in sharpshooting and being more of a "warrior that doesn't take any shit" than a protector and peace keeper.  These officers are generally called tyrants.
+
+---
 
 The roles of warrior cops, traffic patrols and tax collectors in such a way that virtually guarantees a large number of violent confrontations between police and civilians. The United States has about 40 percent more police officers than England or Australia, but adjusting for population, US law enforcement kills 20 to 100 times as many people.
 
@@ -131,6 +141,8 @@ Each year, 50 million Americans come into contact with the police at least once,
 and the Public](https://cowards-with-badges.s3.amazonaws.com/pdfs/contact_between_police_public.pdf). Half of Americans are pulled over in a car that they're driving (19 million), passenger (6 million). Another 8 million are involved in a car accident. 9 million more said that they called the police about a non-crime. Among the most common reasons for those calls?  More traffic accidents - Over all, American policing boils down to broken windows policing.
 
 Police officers are functionally generalists responsible for dealing with a vast array of our society's most sensitive situations; yet we've recruited, hired, trained, equipped, and deployed them to be specialists in force. And we’ve done it all using an often disproportionately white police force with a well-documented racial bias problem entering Black and brown communities that historically distrust the police.
+
+---
 
 Former British police officer, college professor - [Jerry Ratcliffe](https://www.jratcliffe.net/about), author of [Intelligence-Led Policing](https://www.amazon.com/Intelligence-Led-Policing-Jerry-H-Ratcliffe/dp/113885901X) researched the [volume of incidents in 2015 in the City of Philadelphia](https://www.jratcliffe.net/post/policing-explained-in-a-few-graphs) (about 1.5 million in total). These incidents can come from verified calls for service from the public (something really took place as confirmed by a police officer), or from officer-initiated events (such as drug incidents). 
 
@@ -170,7 +182,11 @@ Barry Friedman, author of ["Disaggregating the Policing Function"](https://cowar
 #### SHERIFFS PLAY KEY ROLES IN MASS INCARCERATION AND WHITE SUPREMACY
 
 [The Paid Jailer](https://www.thepaidjailer.org/) uncovered that sheriff campaign dollars shape mass incarceration.  Within their report, construction companies and real estate businesses are the number
-one contributer to sheriff campaigns, ranging from $1,620,611.  Construction and real estate companies go on to build bigger jails.  The report also finds that $6,000,000 in campaign contributions that create potential conflicts of interest for the sheriffs. The Paid Jailer has the data to back up their claims.  This organization provides a [search application](https://www.thepaidjailer.org/general-2) to look up and see where campaign funds are coming from and the total amount given.
+one contributer to sheriff campaigns, ranging from $1,620,611.  Construction and real estate companies go on to build bigger jails.  
+
+---
+
+The report also finds that $6,000,000 in campaign contributions that create potential conflicts of interest for the sheriffs. The Paid Jailer has the data to back up their claims.  This organization provides a [search application](https://www.thepaidjailer.org/general-2) to look up and see where campaign funds are coming from and the total amount given.
 
 A brief summary of The Paid Jailer's findings:
 

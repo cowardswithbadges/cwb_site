@@ -42,21 +42,46 @@
 	{/if}
 
 	{#if typeof youtubeId !== 'undefined'}
-		<iframe
-			title="Video Player"
-			id="ytplayer"
-			type="text/html"
-			width="100%"
-			height="600"
-			src="https://www.youtube.com/embed/{youtubeId}"
-			frameborder="0"
-		/>
+		<div class="video-container">
+			<iframe
+				title="Video Player"
+				id="ytplayer"
+				type="text/html"
+				width="100%"
+				height="600"
+				src="https://www.youtube.com/embed/{youtubeId}"
+				frameborder="0"
+			/>
+		</div>
 	{/if}
 
 	<slot />
 </article>
 
 <style>
+	
+	.video-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		margin: 1em auto;
+	}
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+
+	h2 {
+		font-size: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+
 	.post-container .publish-date {
 		color: var(--primary-color);
 		font-size: 1.6rem;
@@ -66,29 +91,26 @@
 
 	.post-container aside {
 		display: inline-flex;
-
 		justify-content: flex-start;
-		margin: 0;
+		margin: 0.7rem 0;
 		padding: 0;
 		flex: 1;
 		flex-flow: row wrap;
 		width: 100%;
-		
 	}
 
 	.post-container ul {
-		display: inline;
 		list-style-type: none;
 		margin: auto;
 		padding: 0;
-		flex: 1 0 auto;
-		width: 90%;
+		flex: 2;
+		flex-direction: column;
 	}
 
 	.post-container li {
 		padding: 0px 16px;
 		display: inline-flex;
-		
 	}
 
+	
 </style>

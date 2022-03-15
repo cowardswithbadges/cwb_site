@@ -20,22 +20,29 @@
 	header {
 		background: var(--primary-color);
 		height: 10vh;
+		
 		padding: 1em;
 		display: flex;
 		justify-content: flex-start;
 	}
 
 	header nav button {
-		height: 4vh;
-		margin: -1px 0 0 5px;
+		height: 46px;
+		margin: -1px 0 0 -15px;
 		position: fixed;
 		top: 1rem;
 		left: 2rem;
 		z-index: 2;
+		width: 65px;
 	}
 
 	header nav button ion-icon {
-		margin-top: -5px;
-		margin-left: 4px;
+		margin-top: -10px;
+    	margin-left: 4px;
+		font-size: 3rem;
+	}
+
+	@media all and (max-width: 800px){
+
 	}
 </style>

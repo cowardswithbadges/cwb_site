@@ -114,16 +114,12 @@
 
 	footer .brand {
 		display: flex;
-		width: 40%;
-		padding-right: 40px;
 		-webkit-box-orient: vertical;
 		-webkit-box-direction: normal;
 		-webkit-flex-direction: column;
 		flex-direction: column;
 		-ms-flex-pack: justify;
-		justify-content: space-between;
-		flex: 0 0 auto;
-		align-self: center;
+		flex: 1;
 	}
 
 	footer a {
@@ -213,11 +209,11 @@
 		footer a {
 			line-height: 1.95;
 			font-weight: 400;
-			font-size: 1.9rem;
+			font-size: 1.23rem;
 		}
 
 		footer h6 {
-			font-size: 2.6rem;
+			font-size: 1.6rem;
 		}
 
 		footer p {

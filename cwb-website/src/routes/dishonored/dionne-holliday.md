@@ -18,6 +18,8 @@ The officers confronted the boy less than a quarter-mile from the school. They w
 
 Christmon grabs the boy’s arm and escorts him into a police car. Christmon drives the boy and then - Assistant Principal Justine Pfeiffer, who was present throughout, back to the school.
 
+---
+
 Within the body camera video, Kevin Christmon can be heard yelling at the student, calling the child a "violent little thing," a "little beast," and "bad."  Kevin Christmon is also seen grabbing the student by the arm, threatening to beat the child, and handcuffing the child.  
 
 Just a little past the 13 minute mark, the male officer is heard saying that they received a call for a dispute involving a 5-year-old and that he had walked out of the school not wanting to come back even after a staff member followed him to try and get him back in.
@@ -31,6 +33,8 @@ When he is seated, Holliday is shown letting out five screams inches from the bo
 After the boy's mother arrives, the officers bring them both into a conference room. After a brief conversation in which they tell the mother she can legally "beat" the child, an officer places one handcuff around the boy's wrist and puts both of the boy's hands behind his back.
 
 While the officers continue to harass the child, Dionne Holliday can be heard demanding that the student stop crying and screaming in the student's face.  She also tells the child "Does your mama spank you? Does your mama spank you? She’s going to spank you today."
+
+---
 
 The incident sparked intense criticism of county police, leaders and the school district, coming from around the world.
 
@@ -47,6 +51,8 @@ Brown said it brought him to tears. Raskin called it "horrifying."
 After an internal investigation, both officers involved remain employed. The department has said that the officers faced discipline, but has declined to say what it was.
 
 Justine Pfeiffer was placed on administrative leave by MCPS briefly, then assigned to another school. Within weeks, she was reassigned to a position in the school district’s central office after pushback from the new school community.
+
+---
 
 The county government in November passed a new law, inspired by the incident, that requires all Montgomery County police officers in uniform or when displaying a badge or insignia to wear body cameras.
 

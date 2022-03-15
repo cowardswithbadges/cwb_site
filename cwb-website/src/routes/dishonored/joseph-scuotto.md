@@ -1,7 +1,7 @@
 ---
 title: Joseph Scuotto
 date: "2022-03-01"
-youtubeId: "5Bo2ymxZhlw"
+youtubeId: "-w6AcFtBxW0"
 categories: 
   - "florida"
   - "Sunrise Police"
@@ -14,17 +14,19 @@ Joseph Scuotto has served as a City Commissioner since 1997 and returned to offi
 
 However, Scuotto is decidedly in the commission minority.  This position has only few advantages:  the occasional opportunity to vote against measures he may secretly favor, purely for the sake of impugning his political foes. In 2006, when Scuotto was joined by Mayor Steven Feren and Commissioner Irwin Harlem in the majority, would this wack job have made such a stink about a 4 percent raise?
 
-#### Joseph Scuotto blasting Mayor Steven Feren
+#### Joseph Scuotto blasting former Mayor
 
 Commissioner Joey Scuotto can be seen blasting Mayor Steven Feren Dec. 9th, 2011 at the mayor's last meeting before he resigns to become a Broward County circuit judge.
 
 "I can't wait till you go," Scuotto told Feren. Scuotto and residents are upset over the commission decision not to hold a mayoral election in March. Scuotto, who planned to run for mayor, questions City Attorney Stuart Michelson's opinion that the city has no choice but to skip the election due to obscure city charter rule pertaining to mayoral vacancies.
 
-#### Sunrise Mayor calls time out on Hothead Commissioner Joseph Scuotto
+#### Sunrise Mayor calls time out on Scuotto
 
 In 2010, Mayor Roger Wishner says "he puts his own kids in timeout when they act up."  So he did the same with Commissioner Joey Scuotto when he couldn't get him to stop his snide remarks and childish behavior during a public meeting in July of 2010.
 
 Wishner said "I had to stop the discussion cold turkey.  And then everyone calms down. Joey needs to learn to show respect when he is in that meeting room. He can't have temper tantrums. We're all grown-ups and he needs to show some decorum."
+
+---
 
 Sitting in the audience was Wishner's 12-year-old son.  Wishner talked to his son after the meeting:
 
@@ -34,6 +36,8 @@ Sitting in the audience was Wishner's 12-year-old son.  Wishner talked to his so
 
 Scuotto threw a temper trantrum after Commissioner Sheila Alu took time to research the city's trash contract and put it up for bidding. Sunrise City was paying a large sum of money for the service compared to other cities.  He has a close relationship to the city's trash company, All Service Refuse.  All Service Refuse was Scuotto's largest campaign contributor.  Scuotto's catering company was employed at All Service Refuse's work events.  Joseph Scuotto's brother and nephew have both been employed by the trash company.  In 2002, Scuotto went on a vacation with an All Service Refuse executive to Montana to visit the company's president.  [Thomas Francis](https://www.browardpalmbeach.com/news/sunrise-commissioner-not-qualified-to-give-lectures-on-waste-6443355), a reporter for Broward Palm Beach New Times, personally saw video of Scuotto riding horses in Montana with the company's president.
 
+---
+
 Scuotto's relationship with All Service Refuse is unethical.  What Joseph Scuotto is doing is exactly why companies around the country have an ethics committee - to enforce and investigate unethically behavior.  Take for instance, someone in a company is in charge of hiring a third party vendor.  Many vendors bid on a job that would take on a relationship between the company.  If a vendor takes this person out to drinks, food, gives this person over $50 in "swag", and pays their bill - the person representing the company would be influenced by this vendor and would likey pick that vendor over others - even though the vendor may not fit into their business.
 
 #### Joseph Scuotto's food truck scandal
@@ -41,6 +45,8 @@ Scuotto's relationship with All Service Refuse is unethical.  What Joseph Scuott
 Scuotto owns Scuotto’s Pizza Café/Drive Thru restaurant in Sunrise, located down the street from City Hall.  In 2012, has said he wants an outright ban on gourmet food trucks citywide.
 
 In an interview with Sun Sentinel, Commissioner Scuotto states "We have so many restaurants struggling to stay afloat in Sunrise.  I see it as a disadvantage to the businesses that the food trucks come in here."
+
+---
 
 The conversation of this ban sparked an outcry from local food truck owners and onlookers irritated by what they call *an attempt to stamp out competition*.
 
@@ -82,7 +88,11 @@ Assistant Deputy Mayor Mark Douglas told Scuotto to "shut up".  Then it led to S
 
 Douglas later said: 
 
-> * "In Scuotto's display of ignorance he is prepared to accuse everyone else of spinning the story, but as a leader of the community, it was not important enough to watch the video by his own admission.  *It is never ever OK*, to refer to another human, a member of our community or someone in our police custody as a 'piece of shit.' But as usual, after 25 years as a commissioner in our city, who elected its first minority in 2016 after 56 years, Scuotto is trying to hang on to the good old boy mentality of seeing no evil, hearing no evil, and defending the indefensible at all cost as long as it involves 'certain' people for whom he has nothing but contempt."
+> * "In Scuotto's display of ignorance he is prepared to accuse everyone else of spinning the story, but as a leader of the community, it was not important enough to watch the video by his own admission.  *It is never ever OK*, to refer to another human, a member of our community or someone in our police custody as a 'piece of shit.' 
+
+---
+
+> * But as usual, after 25 years as a commissioner in our city, who elected its first minority in 2016 after 56 years, Scuotto is trying to hang on to the good old boy mentality of seeing no evil, hearing no evil, and defending the indefensible at all cost as long as it involves 'certain' people for whom he has nothing but contempt."
 
 The meeting was put into recess.
 

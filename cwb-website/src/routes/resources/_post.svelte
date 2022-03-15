@@ -4,7 +4,7 @@
 	export let youtubeId = undefined;
 	export let categories;
 	import { base } from '$app/paths';
-	
+
 	function slugToTitle(slug) {
 		var words = slug.split('-');
 
@@ -21,43 +21,68 @@
 	<title>Resources - {title}</title>
 	<meta property="og:title" content={title} />
 </svelte:head>
+<div class="content">
+	<article class="post-container">
+		<h1>{title}</h1>
+		<p class="publish-date">Published: {date}</p>
 
-<article class="post-container">
-	<h1>{title}</h1>
-	<p class="publish-date">Published: {date}</p>
+		{#if categories.length}
+			<aside>
+				<h2>Posted in:</h2>
+				<ul>
+					{#each categories as category}
+						<li>
+							<a href="{base}/resources/categories/{category}">
+								{slugToTitle(category)}
+							</a>
+						</li>
+					{/each}
+				</ul>
+			</aside>
+		{/if}
 
-	{#if categories.length}
-		<aside>
-			<h2>Posted in:</h2>
-			<ul>
-				{#each categories as category}
-					<li>
-						<a href="{base}/resources/categories/{category}">
-							{slugToTitle(category)}
-						</a>
-					</li>
-				{/each}
-			</ul>
-		</aside>
-	{/if}
-
-	{#if typeof youtubeId !== 'undefined'}
-		<iframe
-			title="Video Player"
-			id="ytplayer"
-			type="text/html"
-			width="100%"
-			height="600"
-			src="https://www.youtube.com/embed/{youtubeId}"
-			frameborder="0"
-		/>
-	{/if}
-	<div class="post-content">
-		<slot />
-	</div>
-</article>
+		{#if typeof youtubeId !== 'undefined'}
+			<div class="video-container">
+				<iframe
+					title="Video Player"
+					id="ytplayer"
+					type="text/html"
+					width="100%"
+					height="600"
+					src="https://www.youtube.com/embed/{youtubeId}"
+					frameborder="0"
+				/>
+			</div>
+		{/if}
+		<div class="post-content">
+			<slot />
+		</div>
+	</article>
+</div>
 
 <style>
+	.video-container {
+		position: relative;
+		width: 100%;
+		padding-bottom: 56.25%;
+		margin: 1em auto;
+	}
+
+	iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		border: 0;
+	}
+
+	h2 {
+		font-size: 1rem;
+		display: flex;
+		flex-direction: column;
+	}
+
 	.post-container .publish-date {
 		color: var(--primary-color);
 		font-size: 1.6rem;
@@ -67,9 +92,8 @@
 
 	.post-container aside {
 		display: inline-flex;
-
 		justify-content: flex-start;
-		margin: 0;
+		margin: 0.7rem 0;
 		padding: 0;
 		flex: 1;
 		flex-flow: row wrap;
@@ -77,17 +101,16 @@
 	}
 
 	.post-container ul {
-		display: inline;
 		list-style-type: none;
 		margin: auto;
 		padding: 0;
-		flex: 1 0 auto;
-		width: 90%;
+		flex: 2;
+		flex-direction: column;
 	}
 
-	.post-container aside li {
+	.post-container li {
 		padding: 0px 16px;
 		display: inline-flex;
 	}
-
+	
 </style>

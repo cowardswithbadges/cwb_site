@@ -19,9 +19,9 @@
 				<li class:active={$page.url.pathname === `${base}/`}>
 					<ion-icon class="small-icon" name="home-outline" />
 					{#if matches}
-						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/">Home</a>
+						<a on:click={toggleNavigation} sveltekit:prefetch href="{base}/">Latest Resources</a>
 					{:else}
-						<a sveltekit:prefetch href="{base}/">Home</a>
+						<a sveltekit:prefetch href="{base}/">Latest Resource</a>
 					{/if}
 				</li>
 				<li class:active={$page.url.pathname === `${base}/about`}>
@@ -139,7 +139,7 @@
 
 	nav .corner {
 		display: flex;
-		justify-content: flex-end;
+		justify-content: flex-start;
 		margin-top: 0.9rem;
 	}
 

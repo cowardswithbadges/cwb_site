@@ -178,6 +178,7 @@ The typical police officer responding with "You're going to jail now, we'll figu
 <style>
   h3{
     text-align: center;
+    line-height: 1.8rem;
   }
 </style>
 

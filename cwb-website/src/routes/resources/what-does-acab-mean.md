@@ -19,16 +19,21 @@ All Cops Are Bastardized doesn't mean every single cop is a bad cop.  ACAB means
 
 Holding one police officer accountable every time a black person is killed by police is not enough. The issue isn’t the typical argument -  "a few bad apples"; it's a tree that is rotting from the inside out, spreading its poison.
 
+---
+
 The role of law enforcement needs to completely [change](/resources/defunding-police).  Law enforcement officers are discouraged from [learning](/resources/officers-donot-have-to-know-law) law.  How can police enforce laws that they do not know?
 
 #### The origin of Police: Slave Patrol.
 
 The origins of modern day policing can be traced back to the "Slave Patrol." The earliest formal slave patrol was created in the Carolinas in the early 1700s with one mission: to establish a system of terror and squash slave uprisings with the capacity to pursue, apprehend, and return runaway slaves to their owners. Tactics included the use of excessive force to control and produce desired slave behavior.
 
+---
+
 North Carolina Slave Patrol Oath:
 
 > * "I [patroller's name], do swear, that I will as searcher for guns, swords, and other weapons among the slaves in my district, faithfully, and as privately as I can, discharge the trust reposed in me as the law directs, to the best of my power. So help me, God."
 
+---
 
 Slave Patrols continued until the end of the Civil War and the passage of the 13th Amendment. Following the Civil War, during reconstruction, slave patrols were replaced by militia-style groups who were empowered to control and deny access to equal rights to freed slaves. They relentlessly and systematically enforced Black Codes, strict local and state laws that regulated and restricted access to labor, wages, voting rights, and general freedoms for formerly enslaved people.
 
@@ -39,6 +44,8 @@ The criminal justice system is [heavily impacted by the bias](/resources/officer
 #### modern day policing has deep roots in racism.
 
 The legacy and effects of biased policing are far reaching. The U.S. is home to the world's largest prison population and the highest per-capita incarceration rate. As of May 2020, there were 655 people incarcerated per 100,000. Prison, parole, and probation operations cost U.S. taxpayers $81 billion a year.
+
+---
 
 In The Atlantic, (June 16, 2020), an artical titled, [The Culture of Policing is Broken](https://www.theatlantic.com/ideas/archive/2020/06/how-police-brutality-gets-made/613030/), David Brooks wrote:
 
