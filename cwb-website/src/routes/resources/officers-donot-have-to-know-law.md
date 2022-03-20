@@ -21,13 +21,9 @@ Many police officers do not understand the laws they are enforcing and often mak
 
 #### Ignorance of the law
 
-It is the utmost duty of every person connected with the affairs of court to know the law.  
+It is the utmost duty of every person connected with the affairs of court to know the law.  Many civilians without professional or specialized knowledge are acquainted with the laws and regulations. 
 
-Many civilians without professional or specialized knowledge are acquainted with the laws and regulations. 
-
-Being an imperative component of the judicial system, law enforcement officers are unaware of the laws and procedures: it is a case of ignorance.  
-
-Officers are held liable for their negligence and lack of awareness.
+Being an imperative component of the judicial system, law enforcement officers are unaware of the laws and procedures: it is a case of ignorance.  Officers are held liable for their negligence and lack of awareness.
 
 Ignorance of the law is ordinarily not an excuse for criminal law violations, except when a person makes a mistake of law because of a reasonable reliance upon an official interpretation of the law. 
 

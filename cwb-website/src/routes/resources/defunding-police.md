@@ -11,6 +11,7 @@ svg: "Money"
   
 
 <script>
+  import SlowdownArrests from '$lib/charts/SlowdownArrests.svelte';
   import PoliceRoles from '$lib/charts/PoliceRoles.svelte';
 </script>
 
@@ -33,17 +34,30 @@ We cannot go back now and decide to take out this or that thing. The whole cake 
 
 Abolition groups argue that policing and prison are at their core racist and harmful and make communities less safe. They also point out that the vast majority of police work has nothing to do with responding to or preventing violence, and that police have a terrible track record of solving murders or handling rape and domestic violence.
 
-There are studies suggesting that less policing could mean less crime. In 2014 and 2015, New York police officers staged a "slowdown" to protest the mayor, arguing that if they did less police work, the city would be less safe. But the opposite turned out to be true. When the officers took a break from "broken windows policing", meaning targeting low-level offenses such as defective lights on vehicles, jaywalking, vandalism, loitering, public drinking, and fare evasion - there was a drop in crime. 
+There are studies suggesting that less policing could mean less crime. In 2014 and 2015, New York police officers staged a "slowdown" to protest the mayor, arguing that if they did less police work, the city would be less safe. But the opposite turned out to be true. When the officers took a break from "broken windows policing", meaning targeting low-level offenses such as defective lights on vehicles, jaywalking, vandalism, loitering, public drinking, and fare evasion - there was a drop in crime by 6%. 
+
+Police weren't following a specific policy here. The only instruction that's been publicly disclosed was on December 21st, an department wide email said to make arrests "only when necessary." The data suggests that while enforcement is down across the board, the slowdown is mostly showing up in enforcement of minor crimes and offenses.
+
+Overall, cops made 56% fewer arrests in the past week than in the same period the prior year, with sharp declines in busts for robberies, assaults, burglaries, grand larcenies and gun and narcotics offenses.
+
+### Where the NYPD cut arrests- week of Dec 29 - Jan 4
+*Via New York Daily News / New Work Times*
+
+<SlowdownArrests />
 
 ---
 
 Researchers argued that aggressive policing on the streets for petty offenses can ultimately cause social disruption and lead to more crime. Policing that punishes poverty, such as hefty traffic tickets and debts, can also create conditions where crime is more likely. When New York ended "stop and frisk", crime did not rise.
 
+"Stop and frisk" was one manifestation of a decades-long NYPD policy of proactive policing (not to be confused with predictice policing): trying to intercept people who might become criminals before they commit crimes. Another part of that policy has been "broken windows" policing, which was first tried in NYPD under Mayor Giuliani in the 1990s.
+
+NYPD made a point of prosecuting low-level "quality of life" offenses in high-crime neighborhoods. The sort of crimes they're weren't issuing summonses during the "slowdown". The theory behind "broken windows" was that a zero-tolerance attitude toward crime would deter minor criminals from turning into violent ones, and that cracking down on public urination and graffiti would rapidly make high-crime neighborhoods safer and more attractive places to live.
+
+Many critics of the NYPD are taking the fact that crime hasn't exploded during the shutdown as proof that "broken windows" doesn't work.
+
 #### Unbundle the Police
 
 The role of the police officer spans a wide range of overlapping services.  In the end, the role of a law enforement officer becomes "Jack of all trades, master of none".  Most white male cops choose to specialize in sharpshooting and being more of a "warrior that doesn't take any shit" than a protector and peace keeper.  These officers are generally called tyrants.
-
----
 
 The roles of warrior cops, traffic patrols and tax collectors in such a way that virtually guarantees a large number of violent confrontations between police and civilians. The United States has about 40 percent more police officers than England or Australia, but adjusting for population, US law enforcement kills 20 to 100 times as many people.
 
@@ -56,17 +70,15 @@ and the Public](https://cowards-with-badges.s3.amazonaws.com/pdfs/contact_betwee
 
 Police officers are functionally generalists responsible for dealing with a vast array of our society's most sensitive situations; yet we've recruited, hired, trained, equipped, and deployed them to be specialists in force. And we’ve done it all using an often disproportionately white police force with a well-documented racial bias problem entering Black and brown communities that historically distrust the police.
 
----
-
 Former British police officer, college professor - [Jerry Ratcliffe](https://www.jratcliffe.net/about), author of [Intelligence-Led Policing](https://www.amazon.com/Intelligence-Led-Policing-Jerry-H-Ratcliffe/dp/113885901X) researched the [volume of incidents in 2015 in the City of Philadelphia](https://www.jratcliffe.net/post/policing-explained-in-a-few-graphs) (about 1.5 million in total). These incidents can come from verified calls for service from the public (something really took place as confirmed by a police officer), or from officer-initiated events (such as drug incidents). 
 
 *We moved the data Mr. Ratcliffe developed into an interactive chart and color coded all violent crimes in red*.  
 
  > * "The chart below shows that violent crime plays a *small* part in the day-to-day demands on police departments, even in Philadelphia, one of the more troubled cities in the U.S.  While the media frets over homicide, it can be seen in the lower right as one of the least noticeable boxes in the graph. The majority of the police department’s workload is the day-to-day minutiae of life in a big city."
 
----
-
 <PoliceRoles />
+
+---
 
 Barry Friedman, author of ["Disaggregating the Policing Function"](https://cowards-with-badges.s3.amazonaws.com/pdfs/disaggregating_the_policing_function.pdf) and the director of the Policing Project at New York University’s School of Law, breaks down the enormous array of tasks and responsibilities into a handful of distinct roles:
 
@@ -88,7 +100,11 @@ Barry Friedman, author of ["Disaggregating the Policing Function"](https://cowar
 
 5.  The crime-fighter.
 
-  There is something to be said for rapid response by force- and law-trained individuals to situations involving serious criminal activity. However, studies find that this time is mostly spent interviewing witnesses, gathering evidence, advising victims, and writing reports. "Often cops are just there to pick up the pieces after the fact," says Peter Moskos, a former Baltimore police officer and criminologist at John Jay College. "By the time you arrive, the crime is usually no longer in progress."
+  There is something to be said for rapid response by force- and law-trained individuals to situations involving serious criminal activity. However, studies find that this time is mostly spent interviewing witnesses, gathering evidence, advising victims, and writing reports. 
+  
+  Peter Moskos, a former Baltimore police officer and criminologist at John Jay College said:
+
+  > * "Often cops are just there to pick up the pieces after the fact, by the time you arrive, the crime is usually no longer in progress."
 
 
 #### SHERIFFS PLAY KEY ROLES IN MASS INCARCERATION AND WHITE SUPREMACY
@@ -123,8 +139,8 @@ America's legacy of racism and severe gun violence epidemic make it difficult to
 
 1. Close Existing Jails & Stop the Construction of New Jails.
 
-  "5 million people — most of whom have not been convicted of a crime — are detained in jails across the country. The vast majority of these jails are controlled by sheriffs, who play a critical role in
-managing the flow of people in and out of their custody."
+  > * "5 million people — most of whom have not been convicted of a crime — are detained in jails across the country. The vast majority of these jails are controlled by sheriffs, who play a critical role in
+  managing the flow of people in and out of their custody."
 
   Many of these people are in jail for petty crimes.  However, the inmates would rather spend the time in jail for 30 days to 6 months instead of agreeing to probation.  Meeting and paying a probation officer may last up to 6 months to 12 years, depending on the charges.
 
@@ -132,7 +148,7 @@ managing the flow of people in and out of their custody."
 
 2. End the Use of Deputies in Traffic Stops & Limit Arrests.
 
-   "Sheriffs and deputies often use their policing powers to perpetuate harm against Black and Brown people and feed mass incarceration: they make more than 2 million arrests each year, and shoot and kill more than 400 people. They disproportionately target Black and Brown drivers for alleged traffic violations, and they arrest individuals for minor offenses, like drug possession."
+  > * "Sheriffs and deputies often use their policing powers to perpetuate harm against Black and Brown people and feed mass incarceration: they make more than 2 million arrests each year, and shoot and kill more than 400 people. They disproportionately target Black and Brown drivers for alleged traffic violations, and they arrest individuals for minor offenses, like drug possession."
 
    As a society, we've been trained to believe that laws against petty crimes is for public saftey, however that is far from the truth. The term known as "broken windows policing", meaning targeting low-level offenses, only creates more problems and criminalizes the poor, people without housing, and has a financial incentive for police, attorneys, judges, and the court systems.
 
@@ -140,19 +156,19 @@ managing the flow of people in and out of their custody."
 
 3. End Jail Deaths and Solitary Confinement.
 
-  "People in the custody and control of sheriffs die at alarming rates — by suicide, during drug withdrawal, from untreated pre-existing medical conditions exacerbated by inadequate jail conditions and medical care, or from assaults committed by jail staff or other detained individuals. More than 1,000 incarcerated people die each year."
+    > * "People in the custody and control of sheriffs die at alarming rates — by suicide, during drug withdrawal, from untreated pre-existing medical conditions exacerbated by inadequate jail conditions and medical care, or from assaults committed by jail staff or other detained individuals. More than 1,000 incarcerated people die each year."
 
   [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/end_jail_deaths.pdf)
 
 4. Get Out of Immigration Enforcement.
 
-  "The involvement of local law enforcement in immigration enforcement tears apart families and communities. The vast majority of sheriffs collaborate with ICE, even though no federal laws require them to do so: they share information with ICE, hold people in their custody for ICE, rent beds in their jail to ICE, or participate in programs that empower deputies to carry out the duties of ICE."
+    > * "The involvement of local law enforcement in immigration enforcement tears apart families and communities. The vast majority of sheriffs collaborate with ICE, even though no federal laws require them to do so: they share information with ICE, hold people in their custody for ICE, rent beds in their jail to ICE, or participate in programs that empower deputies to carry out the duties of ICE."
 
   [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/immigration_enforcement.pdf)
 
 5. Remove Deputies from Schools.
 
-  "Placing sheriffs’ deputies in schools does not increase student safety and leads to the criminalization of students, particularly students of color and students with disabilities, for typical childhood misbehavior. All across the country, sheriffs’ deputies are stationed in schools as “School Resource Officers,'' with the power to detain, search, restrain (often with force), arrest, and take kids to jail."
+    > * "Placing sheriffs’ deputies in schools does not increase student safety and leads to the criminalization of students, particularly students of color and students with disabilities, for typical childhood misbehavior. All across the country, sheriffs’ deputies are stationed in schools as “School Resource Officers,'' with the power to detain, search, restrain (often with force), arrest, and take kids to jail."
 
   As researched by [Martha L. Raimon](https://cssp.org/team/martha-raimon/): "By contrast, there is no [conclusive evidence](https://www.endzerotolerance.org/single-post/2019/03/11/Research-on-the-Impact-of-School-Policing) that police in schools improve either students’ mental health, educational outcomes, or their safety. Instead, this practice has led to the criminalization of youth, particularly youth of color and those with disabilities, and has helped to create the school-to-prison pipeline."
 
@@ -160,12 +176,21 @@ managing the flow of people in and out of their custody."
 
 6. Stop Evictions and Civil Asset Seizure.
 
-  "In addition to their criminal enforcement duties, sheriffs also play a major role in enforcing civil judgments. They have the authority to seize assets — a process known as civil asset forfeiture — and the power to enforce evictions. Civil asset forfeiture has led to considerable abuse by law enforcement and has deprived people of their homes, cars, and savings, even without criminal charges or convictions."
+    > * "In addition to their criminal enforcement duties, sheriffs also play a major role in enforcing civil judgments. They have the authority to seize assets — a process known as civil asset forfeiture — and the power to enforce evictions. Civil asset forfeiture has led to considerable abuse by law enforcement and has deprived people of their homes, cars, and savings, even without criminal charges or convictions."
 
   [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/civil_asset_seizure.pdf)
 
 7. Reallocate Resources to Community-based Systems of Health, Violence Interruption, and Substance Use Treatment.
 
-  "Sheriffs have broad power when it comes to their budgets, and while local governments fund sheriffs’ offices, they have limited authority to dictate how a sheriff uses the money. Given the discretion sheriffs have over their budgets, they should support the reallocation of resources away from a law enforcement-centered approach to community safety and well-being and toward a community-based system of care and treatment."
+   > * "Sheriffs have broad power when it comes to their budgets, and while local governments fund sheriffs’ offices, they have limited authority to dictate how a sheriff uses the money. Given the discretion sheriffs have over their budgets, they should support the reallocation of resources away from a law enforcement-centered approach to community safety and well-being and toward a community-based system of care and treatment."
 
   [Learn More](https://cowards-with-badges.s3.amazonaws.com/pdfs/reallocate_resources.pdf)
+
+  <style>
+  h3{
+    text-align: center;
+    line-height: 1.8rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+  }
+</style>
