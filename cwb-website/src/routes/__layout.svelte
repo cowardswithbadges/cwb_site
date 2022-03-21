@@ -29,11 +29,3 @@
 
 	<Footer />
 </div>
-
-<style>
-	/*@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}*/
-</style>

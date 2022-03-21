@@ -1,20 +1,5 @@
-<script context="module">
-	export async function load({ error, status }) {
-		return {
-			props: {
-				message: error.message,
-				status
-			}
-		};
-	}
-</script>
-
 <script>
-	import ErrorScreen from '../lib/content/ErrorScreen.svelte';
 	import NotFoundScreen from '../lib/content/NotFoundScreen.svelte';
-
-	export let message;
-	export let status;
 
 	let resources = [
 		{
@@ -75,9 +60,4 @@
 	];
 </script>
 
-{#if status == 404}
-	<!-- Used '==' instead of '===' to match string/number status code (just to be sure) -->
-	<NotFoundScreen {message} {resources} {cowards} />
-{:else}
-	<ErrorScreen {message} {resources} {cowards}/>
-{/if}
+<NotFoundScreen {resources} {cowards} />

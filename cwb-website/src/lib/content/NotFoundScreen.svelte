@@ -1,27 +1,13 @@
-<script context="module">
-	export const prerender = true;
-	export function load({ error, status }) {
-		return {
-			props: {
-				message: error.message,
-				status
-			}
-		};
-	}
-</script>
-
 <script>
 	import { goto } from '$app/navigation';
 	import PoliceFish from '$lib/svg/PoliceFish.svelte';
 	import Grid from '$lib/content/Grid.svelte';
-	export let message;
 	export let resources;
     export let cowards;
 </script>
 
 <PoliceFish />
 <h1>We couldn't find what you were looking for.</h1>
-<h2>{message}</h2>
 <h3>popular resources</h3>
 <Grid posts={resources} />
 
@@ -56,9 +42,7 @@
 
 <style>
 	h1,
-	h2,
-	h3,
-	h2 {
+	h3 {
 		font-weight: 900;
 		font-size: 2rem;
 		color: var(--primary-color);
