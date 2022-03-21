@@ -28,11 +28,12 @@
 		from police departments and reallocating to non-policing forms of mental health care, community
 		support, education, employment, and other community resources.
 	</p>
-	
+
 	<hr />
 	<h4 id="the-system-is-corrupt">
 		<a aria-hidden="true" tabindex="-1" href="#the-system-is-corrupt">
-		<span class="icon icon-link" /></a>the system is corrupt
+			<span class="icon icon-link" /></a
+		>the system is corrupt
 	</h4>
 
 	<p>
@@ -47,28 +48,37 @@
 		no education, training, or support to help a person turn their live around. The criminal courts
 		and probation services force individuals to pay an unfair amount of fees ranging from court
 		costs, restitution, child support, probation, and many other avenues that would be considered
-		extortion. 
+		extortion.
 	</p>
 
-	<p>If these fees are not paid on time, often the individuals will lose their driver's
-		license. Over time this leads to unemployment, as criminal backgrounds drastically reduces
-		employment opportunities. By design, all these facets causes individuals caught in this sytem to
-		commit more crimes and continue the cycle of government making money off of them.</p>
+	<p>
+		If these fees are not paid on time, often the individuals will lose their driver's license. Over
+		time this leads to unemployment, as criminal backgrounds drastically reduces employment
+		opportunities. By design, all these facets causes individuals caught in this sytem to commit
+		more crimes and continue the cycle of government making money off of them.
+	</p>
 
 	<h4 id="police-officers-are-under-trained">
 		<a aria-hidden="true" tabindex="-1" href="#police-officers-are-under-trained">
-		<span class="icon icon-link" /></a>Police Officers are under-trained & over-armed
+			<span class="icon icon-link" /></a
+		>Police Officers are under-trained & over-armed
 	</h4>
 
 	<p>
 		Police Officers have demonstrated time and time again that they are under-trained and
-		over-armed. These officers <a href="{base}/resources/officers-donot-have-to-know-law">do not know the laws</a> they are enforcing. <a href="{base}/resources/defunding-police">
-		Deallocating funds that militarize law enforcement</a> need to be put to use into a fund that supports an individual's
-		education, employment, mental health, and family support. Police Officers can often be observed
-		on a daily basis looking for petty crimes, for example: a broken tail light, jay-walking,
-		running a stop sign, disorderly conduct, victimless crimes such as a person in possession of
-		marijuana. Law enforcement officers use these crimes as a way to look or fish for more
-		infractions. Police Officers lie, make up laws, and <a href="{base}/resources/categories/human-rights">violate our rights</a> every day.
+		over-armed. These officers <a href="{base}/resources/officers-donot-have-to-know-law"
+			>do not know the laws</a
+		>
+		they are enforcing.
+		<a href="{base}/resources/defunding-police">
+			Deallocating funds that militarize law enforcement</a
+		>
+		need to be put to use into a fund that supports an individual's education, employment, mental
+		health, and family support. Police Officers can often be observed on a daily basis looking for
+		petty crimes, for example: a broken tail light, jay-walking, running a stop sign, disorderly
+		conduct, victimless crimes such as a person in possession of marijuana. Law enforcement officers
+		use these crimes as a way to look or fish for more infractions. Police Officers lie, make up
+		laws, and <a href="{base}/resources/categories/human-rights">violate our rights</a> every day.
 	</p>
 
 	<p>
@@ -81,13 +91,15 @@
 		enforcement using overcriminalization, violating citizen's rights and excessive use of force.
 	</p>
 
-	<p>Society would be encouraged to use those resources instead of law
-		enforcement using overcriminalization, violating our rights, excessive use of force, and killing
-		people.</p>
+	<p>
+		Society would be encouraged to use those resources instead of law enforcement using
+		overcriminalization, violating our rights, excessive use of force, and killing people.
+	</p>
 
 	<h4 id="providing-education">
 		<a aria-hidden="true" tabindex="-1" href="#providing-education">
-		<span class="icon icon-link" /></a>providing education and exposing corruption
+			<span class="icon icon-link" /></a
+		>providing education and exposing corruption
 	</h4>
 
 	<p>
@@ -95,8 +107,8 @@
 		government officials such as commissioners and mayors, will use their badge and authority to
 		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
 		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
-		rape, sexual assault on children, human trafficking, and murder. They are <a href="{base}/">Cowards with Badges</a
-		>. We will expose, educate, and document these cowards and break their immunity safe
-		haven.
+		rape, sexual assault on children, human trafficking, and murder. They are <a href="{base}/"
+			>Cowards with Badges</a
+		>. We will expose, educate, and document these cowards and break their immunity safe haven.
 	</p>
 </div>

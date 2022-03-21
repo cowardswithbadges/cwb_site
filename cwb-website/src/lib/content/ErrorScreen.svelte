@@ -57,14 +57,11 @@
 	h1,
 	h2,
 	h3,
-	h4,
-	p {
-		text-align: center;
-	}
 	h2 {
 		font-weight: 900;
 		font-size: 2rem;
 		color: var(--primary-color);
+        text-align: center; 
 	}
 
 	h3 {
