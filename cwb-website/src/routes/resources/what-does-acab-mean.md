@@ -17,7 +17,7 @@ ACAB means "All Cops Are Bastardized".
 
 All Cops Are Bastardized doesn't mean every single cop is a bad cop.  ACAB means *every single police officer* is complicit in a system that actively devalues the lives of people of color. Bad cops are encouraged in their harm by the silence of the ones who see themselves as "good."  The role of the law enforcement system bastardized: corrupt, shameful, and a disgrace.
 
-Holding one police officer accountable every time a black person is killed by police is not enough. The issue isn’t the typical argument -  "a few bad apples"; it's a tree that is rotting from the inside out, spreading its poison.
+Holding one police officer accountable every time a black person is killed by police is not enough. The issue isn’t the typical argument - "a few bad apples"; it's a tree that is rotting from the inside out, spreading its poison.
 
 ---
 

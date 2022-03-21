@@ -28,7 +28,8 @@
 		from police departments and reallocating to non-policing forms of mental health care, community
 		support, education, employment, and other community resources.
 	</p>
-
+	
+	<hr />
 	<h4 id="the-system-is-corrupt">
 		<a aria-hidden="true" tabindex="-1" href="#the-system-is-corrupt">
 		<span class="icon icon-link" /></a>the system is corrupt
@@ -46,11 +47,13 @@
 		no education, training, or support to help a person turn their live around. The criminal courts
 		and probation services force individuals to pay an unfair amount of fees ranging from court
 		costs, restitution, child support, probation, and many other avenues that would be considered
-		extortion. If these fees are not paid on time, often the individuals will lose their driver's
+		extortion. 
+	</p>
+
+	<p>If these fees are not paid on time, often the individuals will lose their driver's
 		license. Over time this leads to unemployment, as criminal backgrounds drastically reduces
 		employment opportunities. By design, all these facets causes individuals caught in this sytem to
-		commit more crimes and continue the cycle of government making money off of them.
-	</p>
+		commit more crimes and continue the cycle of government making money off of them.</p>
 
 	<h4 id="police-officers-are-under-trained">
 		<a aria-hidden="true" tabindex="-1" href="#police-officers-are-under-trained">
@@ -75,9 +78,12 @@
 		another agency that provides replacement vehicle lights, anger management courses, mental health
 		evaluations and medications, and training on changing habits would stop the financial incentive
 		for policing and government. Society would be encouraged to use those resources instead of law
-		enforcement using overcriminalization, violating our rights, excessive use of force, and killing
-		people.
+		enforcement using overcriminalization, violating citizen's rights and excessive use of force.
 	</p>
+
+	<p>Society would be encouraged to use those resources instead of law
+		enforcement using overcriminalization, violating our rights, excessive use of force, and killing
+		people.</p>
 
 	<h4 id="providing-education">
 		<a aria-hidden="true" tabindex="-1" href="#providing-education">
@@ -90,14 +96,7 @@
 		commit crimes but cannot be held accountable due to qualified immunity. Their crimes are often
 		extortion, theft, planting/destorying evidence, civil rights violations, racism, kidnapping,
 		rape, sexual assault on children, human trafficking, and murder. They are <a href="{base}/">Cowards with Badges</a
-		>. We will expose, educate, and document these cowards and break their immunity bubble safe
+		>. We will expose, educate, and document these cowards and break their immunity safe
 		haven.
-	</p>
-
-	<p>
-		Everyone is welcome to read, share, use, and educate others with all of our content. Our agenda
-		is to educate without any sugar coating. For example, we do not use terms that the media uses
-		such as "allegedly", "reportedly", "presumably"... if a police officer is on video <a sveltekit:prefetch href="{base}/dishonored/christopher-pullease">choking a female police officer</a
-		> - there is nothing "alleged" about that - the officer choked another officer.
 	</p>
 </div>
