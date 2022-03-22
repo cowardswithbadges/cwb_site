@@ -74,7 +74,7 @@ Former British police officer, college professor - [Jerry Ratcliffe](https://www
 
 *We moved the data Mr. Ratcliffe developed into an interactive chart and color coded all violent crimes in red*.  
 
- > * "The chart below shows that violent crime plays a *small* part in the day-to-day demands on police departments, even in Philadelphia, one of the more troubled cities in the U.S.  While the media frets over homicide, it can be seen in the lower right as one of the least noticeable boxes in the graph. The majority of the police department’s workload is the day-to-day minutiae of life in a big city."
+ > * "The chart below shows that violent crime plays a *small* part in the day-to-day demands on police departments, even in Philadelphia, one of the more troubled cities in the U.S.  While the media frets over homicide, it can be seen as the smallest red sliver of data on the graph. The majority of the police department's workload is the day-to-day minutiae of life in a big city."
 
 <PoliceRoles />
 
